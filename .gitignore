@@ -1,7 +1,9 @@
 .gradle
-
+*.png
+*.jpg
+*.jpeg
 bin
-
+cache/
 Reports
 
 Libs
