@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>li_Beranda</name>
+   <tag></tag>
+   <elementGuidId>391bb39a-5c0e-4fcf-9f4f-4b65a5e77b99</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>li.border-b-4.border-white.transition-all</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Artikel'])[1]/preceding::li[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>li</value>
+      <webElementGuid>bd9b383e-f9cb-4db3-8da6-ef6873232a36</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>border-b-4 border-white transition-all</value>
+      <webElementGuid>f68a5913-080a-437d-abf7-63e1c8443fb8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Beranda</value>
+      <webElementGuid>7cda16fa-1c08-4e3d-bb82-58e1df386b98</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/nav[@class=&quot;bg-web-green-300 fixed w-full z-50&quot;]/div[@class=&quot;max-w-[1440px] flex flex-wrap items-center justify-between mx-auto p-[22px]&quot;]/div[1]/ul[@class=&quot;font-poppins text-[20px] font-[700] flex flex-row gap-[61px]  text-white&quot;]/li[@class=&quot;border-b-4 border-white transition-all&quot;]</value>
+      <webElementGuid>a87bd7f7-f572-416c-b1ac-2b7f00722ded</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Artikel'])[1]/preceding::li[1]</value>
+      <webElementGuid>d67cb4f4-1af6-4ebb-83c1-a14e9a837969</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li</value>
+      <webElementGuid>9ba967c8-7526-411c-87ed-03407ae0f564</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//li[(text() = 'Beranda' or . = 'Beranda')]</value>
+      <webElementGuid>ce38ccc6-0178-4cf3-bece-297a9c6c3ab5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

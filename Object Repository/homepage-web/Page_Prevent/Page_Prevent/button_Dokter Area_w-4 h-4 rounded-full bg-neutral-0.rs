@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Dokter Area_w-4 h-4 rounded-full bg-neutral-0</name>
+   <tag></tag>
+   <elementGuidId>b51ed33a-9dce-4066-801a-d0a5cc0ed3e2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.w-4.h-4.rounded-full.bg-neutral-0</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>30b48a9e-837f-446f-b4a3-3679df10a557</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>4ed35387-9668-4e7e-a9f8-0ebab6795159</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>w-4 h-4 rounded-full bg-neutral-0</value>
+      <webElementGuid>a3ac1681-eca5-4cfd-9487-11d9cc1ae50e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>Hero 1</value>
+      <webElementGuid>902753d6-fb22-44fd-863e-3d159f23bf4c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;default-carousel&quot;)/div[@class=&quot;absolute z-30  space-x-3 bottom-5 left-1/2&quot;]/button[@class=&quot;w-4 h-4 rounded-full bg-neutral-0&quot;]</value>
+      <webElementGuid>adc345a2-0226-461a-84ee-ef3e824ab160</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[2]</value>
+      <webElementGuid>e0df87fe-c56e-45e6-9712-e0d7285ba88b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='default-carousel']/div[2]/button</value>
+      <webElementGuid>fb90f3eb-8c6c-43c0-acb3-c5cf0390b80a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/button</value>
+      <webElementGuid>5570c6b5-c7bd-4891-b15b-aa5af7197b43</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button']</value>
+      <webElementGuid>5841e96d-3548-4d9b-accc-222d3d187741</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
