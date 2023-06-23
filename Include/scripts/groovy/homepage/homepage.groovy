@@ -73,6 +73,11 @@ class homepage {
 
 		WebUI.click(findTestObject('Object Repository/homepage-web/Page_Prevent/a_Beranda'))
 
+
+		WebUI.scrollToPosition(0, 1000)
+
+
+
 		WebUI.scrollToPosition(0, 1000)
 
 		WebUI.navigateToUrl('https://main--melodious-genie-0706de.netlify.app/dokter')
