@@ -75,6 +75,11 @@ class homepage {
 
 
 		WebUI.scrollToPosition(0, 1000)
+
+
+
+		WebUI.scrollToPosition(0, 1000)
+
 		WebUI.navigateToUrl('https://main--melodious-genie-0706de.netlify.app/dokter')
 		WebUI.delay(3)
 
@@ -82,7 +87,6 @@ class homepage {
 		WebUI.navigateToUrl('https://main--melodious-genie-0706de.netlify.app/are-you-doctor')
 		WebUI.verifyElementPresent(findTestObject('Object Repository/homepage-web/Page_Prevent/Page_Prevent/a_Daftar Sebagai Dokter'), 30)
 		WebUI.delay(3)
-
 
 		WebUI.takeScreenshot()
 		WebUI.scrollToPosition(0, 1000)
@@ -114,8 +118,6 @@ class homepage {
 			WebUI.delay(3)
 		}
 		WebUI.closeBrowser()
-		
-		
 	}
 }
 
