@@ -31,14 +31,6 @@ import com.kms.katalon.core.testobject.RequestObject
 import com.kms.katalon.core.testobject.ResponseObject
 import com.kms.katalon.core.testobject.ConditionType
 import com.kms.katalon.core.testobject.TestObjectProperty
-import com.kms.katalon.core.testobject.ObjectRepository
-import com.kms.katalon.core.testobject.TestObject
-import com.kms.katalon.core.model.FailureHandling
-import com.kms.katalon.core.testobject.ConditionType
-import com.kms.katalon.core.testobject.RequestObject
-import com.kms.katalon.core.testobject.ResponseObject
-import com.kms.katalon.core.testobject.ConditionType
-import com.kms.katalon.core.testobject.ResponseObject
 import com.kms.katalon.core.exception.StepFailedException
 
 import com.kms.katalon.core.mobile.helper.MobileElementCommonHelper
@@ -63,10 +55,16 @@ class homepage {
 		WebUI.navigateToUrl('https://main--melodious-genie-0706de.netlify.app/')
 		WebUI.maximizeWindow()
 	}
-	
+
+	@Given("User launch website prevent for scenario verify navigation")
+	def launch_web_navigate() {
+		launch_web()
+	}
+
 	@When("User check for the (.*) in step")
 	def checkData(String value) {
 		WebUI.setText(findTestObject('Object Repository/homepage-web/Page_Prevent/Page_Prevent/input_Dokter Area_simple-search'), value)
+		WebUI.delay(3)
 		WebUI.sendKeys(findTestObject('Object Repository/homepage-web/Page_Prevent/Page_Prevent/input_Dokter Area_simple-search'), Keys.chord(Keys.ENTER))
 	}
 
@@ -74,45 +72,45 @@ class homepage {
 	def clickScroll() {
 
 		WebUI.click(findTestObject('Object Repository/homepage-web/Page_Prevent/a_Beranda'))
-		
-		
-		WebUI.scrollToPosition(0, 1000)
 		WebUI.navigateToUrl('https://main--melodious-genie-0706de.netlify.app/dokter')
 		WebUI.delay(3)
-		
-		
+
+
 		WebUI.navigateToUrl('https://main--melodious-genie-0706de.netlify.app/are-you-doctor')
-		WebUI.scrollToPosition(0, 1000)
-		WebUI.verifyElementVisible(findTestObject('Object Repository/homepage-web/Page_Prevent/Page_Prevent/a_Daftar Sebagai Dokter'), 0)
+		WebUI.verifyElementPresent(findTestObject('Object Repository/homepage-web/Page_Prevent/Page_Prevent/a_Daftar Sebagai Dokter'), 30)
 		WebUI.delay(3)
-		
-		
+		WebUI.takeScreenshot()
+		WebUI.scrollToPosition(0, 1000)
+
 		WebUI.click(findTestObject('Object Repository/homepage-web/Page_Prevent/a_Tentang Kami'))
-		WebUI.scrollToPosition(0, 1000)
-		WebUI.verifyElementVisible(findTestObject('Object Repository/homepage-web/Page_Prevent/Page_Prevent/div_Brosur (Desktop)'), 0)
+		WebUI.verifyElementPresent(findTestObject('Object Repository/homepage-web/Page_Prevent/Page_Prevent/div_Brosur (Desktop)'), 30)
+		WebUI.takeScreenshot()
 		WebUI.delay(3)
-		
-		
+
+
 		WebUI.click(findTestObject('Object Repository/homepage-web/Page_Prevent/a_Hubungi Kami'))
+		WebUI.takeScreenshot()
 		WebUI.delay(3)
-		
+
 		WebUI.click(findTestObject('Object Repository/homepage-web/Page_Prevent/a_Dokter Area'))
 		WebUI.delay(3)
-		WebUI.verifyElementVisible(findTestObject('Object Repository/homepage-web/Page_Prevent/button_Log In'), 0)
+		WebUI.takeScreenshot()
+		WebUI.verifyElementPresent(findTestObject('Object Repository/homepage-web/Page_Prevent/button_Log In'), 30)
 		WebUI.closeBrowser()
-
 	}
-	
+
 	@Then("User verify the (.*) in step")
 	def verifyData(String status) {
 		if (status == 'passed') {
-			WebUI.verifyElementPresent(findTestObject('Object Repository/homepage-web/Page_Prevent/Page_Prevent/input_Dokter Area_simple-search'), 30, FailureHandling.STOP_ON_FAILURE)
+			WebUI.verifyElementPresent(findTestObject('Object Repository/homepage-web/Page_Prevent/Page_Prevent/verifyBoxContentArticle'), 30, FailureHandling.STOP_ON_FAILURE)
 			WebUI.delay(3)
 		} else if (status == 'failed') {
-			WebUI.verifyElementPresent(findTestObject('Object Repository/homepage-web/Page_Prevent/Page_Prevent/input_Dokter Area_simple-search_1'), 30, FailureHandling.STOP_ON_FAILURE)
+			WebUI.verifyElementPresent(findTestObject('Object Repository/homepage-web/Page_Prevent/Page_Prevent/input_Dokter Area_notFoundArticle'), 30, FailureHandling.STOP_ON_FAILURE)
 			WebUI.delay(3)
 		}
 		WebUI.closeBrowser()
+		
+		
 	}
 }
 
