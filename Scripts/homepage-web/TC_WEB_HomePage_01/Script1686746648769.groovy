@@ -18,6 +18,10 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 WebUI.acceptAlert()
+WebUI.acceptAlert()
+WebUI.acceptAlert()
+WebUI.acceptAlert()
+WebUI.acceptAlert()
 
 WebUI
 
