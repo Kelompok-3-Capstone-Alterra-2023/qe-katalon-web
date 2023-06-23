@@ -7,14 +7,14 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
+         <value>body > section > div.flex.items-center.justify-center.gap-\[70px\] > header > p</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='Unduh Aplikasi Prevent!'])[1]/following::div[2]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>8b3771fd-d0ee-4d9b-8af2-870fe3cc7304</webElementGuid>
+      <webElementGuid>7ffbd294-bc39-4800-8e12-e6fd96d3766c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>bg-[#D0E6C6] rounded-[20px] flex flex-col gap-[68px] p-[42px]</value>
-      <webElementGuid>1a2cfe08-d65e-4d2a-ba65-6d89198da50a</webElementGuid>
+      <webElementGuid>7c1bd1c7-0520-42b6-9280-c1d2407827ac</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Brosur (Desktop)</value>
-      <webElementGuid>d2abbab9-7b91-4255-9aec-fc80dd5b6166</webElementGuid>
+      <webElementGuid>bc5a7065-f29b-4ace-b6e4-d85eaa7befed</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/section[@class=&quot;font-inter text-[20px] font-[500] leading-6 text-[#40522B] my-[118px] max-w-[1248px] mx-auto&quot;]/div[@class=&quot;flex flex-col items-center gap-[42px] mt-[100px]&quot;]/div[@class=&quot;flex gap-[85px]&quot;]/div[@class=&quot;bg-[#D0E6C6] rounded-[20px] flex flex-col gap-[68px] p-[42px]&quot;]</value>
-      <webElementGuid>cf6b4d64-a32a-40e8-ba1d-74cdab7f1dbb</webElementGuid>
+      <webElementGuid>5e31df7c-6ebe-4db9-a600-ab7365cb5d33</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Unduh Aplikasi Prevent!'])[1]/following::div[2]</value>
-      <webElementGuid>bcbe1b88-3f24-46db-9c1f-c37376bc665a</webElementGuid>
+      <webElementGuid>77185f48-17af-44f2-b628-d59ac1dd5d86</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Layanan Responsif 24 Jam'])[1]/following::div[3]</value>
-      <webElementGuid>7dc782d3-d8e9-49bd-bf85-d1244207d239</webElementGuid>
+      <webElementGuid>c1418dc0-4d30-43d5-adfd-ed13a24def4a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Tentang Kami'])[2]/preceding::div[5]</value>
-      <webElementGuid>82e98745-0190-4f0c-b766-39ae3e8edac1</webElementGuid>
+      <webElementGuid>5a3c6682-7e6a-4768-8388-559a7d1dbd44</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Hubungi Kami'])[1]/preceding::div[6]</value>
-      <webElementGuid>f35cd7f9-b1c9-40c4-bd95-704c10a6009a</webElementGuid>
+      <webElementGuid>f8388502-48ab-4d1a-beaa-acc58b396a91</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[5]/div/div</value>
-      <webElementGuid>e35fed47-5728-4977-a102-74f78616ca61</webElementGuid>
+      <webElementGuid>b5ef0bdc-9839-461d-be39-0b0b9aa80232</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +94,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'Brosur (Desktop)' or . = 'Brosur (Desktop)')]</value>
-      <webElementGuid>ed4054c0-bf70-4a1b-8332-9bb8038a5947</webElementGuid>
+      <webElementGuid>ced9dc33-10f6-445b-bd59-fc82c758ff45</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

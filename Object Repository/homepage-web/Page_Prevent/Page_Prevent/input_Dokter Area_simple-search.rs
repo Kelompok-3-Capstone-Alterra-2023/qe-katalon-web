@@ -7,14 +7,18 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#simple-search</value>
+         <value>body > section > div.grid.lg\:grid-cols-3.md\:grid-cols-2.sm\:grid-cols-1.gap-10 > div</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//input[@id='simple-search']</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'text' and @id = 'simple-search' and @placeholder = 'Pencarian']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>068b7c10-c370-4503-baaf-0f9fdde6f5a3</webElementGuid>
+      <webElementGuid>76697178-1fae-4eb5-96ba-1be1438e9e92</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +34,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>e338b224-6dcf-4d25-992a-8416ed66224d</webElementGuid>
+      <webElementGuid>fea2641a-b19a-4471-a8fb-84805da45c5b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +42,7 @@
       <name>id</name>
       <type>Main</type>
       <value>simple-search</value>
-      <webElementGuid>b25b1ab0-23ba-4df5-ae85-1cac79fddfe4</webElementGuid>
+      <webElementGuid>c050b495-245a-4639-8736-e85473b47512</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>class</name>
       <type>Main</type>
       <value>border-none rounded-lg h-[54px] bg-web-green-200  placeholder-white text-white</value>
-      <webElementGuid>645c58fb-0456-40e8-aa20-191db53a7928</webElementGuid>
+      <webElementGuid>9d59f11b-380b-40a6-b6d5-e225723298a1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +58,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Pencarian</value>
-      <webElementGuid>32967ccf-2aa9-4aee-8725-6d7d0c73bd72</webElementGuid>
+      <webElementGuid>043badf2-daa4-456d-bb83-8084ecdc6ce3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;simple-search&quot;)</value>
-      <webElementGuid>d850e8c1-312f-4429-a1a0-743513936ffc</webElementGuid>
+      <webElementGuid>ae0d46c6-323a-477a-860d-789df055bb76</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='simple-search']</value>
-      <webElementGuid>cca982f8-cd3b-4453-8bc6-81e01484645f</webElementGuid>
+      <webElementGuid>3c5da373-9317-4741-bdac-e614bd818a31</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//input</value>
-      <webElementGuid>f00f439b-9973-4d87-a844-aff118866cd7</webElementGuid>
+      <webElementGuid>ec1ccc12-cfb2-4e20-b9bd-0e1d0deef604</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +90,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text' and @id = 'simple-search' and @placeholder = 'Pencarian']</value>
-      <webElementGuid>1731fb5d-01a8-43d4-81b7-ad17f4a10a9b</webElementGuid>
+      <webElementGuid>683f5cd8-7f23-43b0-88e3-8b5f54ff094f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
