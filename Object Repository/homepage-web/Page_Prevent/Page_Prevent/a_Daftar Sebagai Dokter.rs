@@ -7,14 +7,14 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
+         <value>body > div.w-\[1440px\].mx-auto.my-\[100px\].bg-neutral-0.flex.flex-col.gap-0.items-start.justify-start.relative.overflow-hidden > div > div > div > div.flex.flex-col.gap-2\.5.items-start.justify-start.shrink-0.w-\[1332px\].relative > div > div.flex.flex-col.gap-\[21px\].items-start.justify-start.shrink-0.relative > div.font-poppins.font-medium.text-lg\/\[36px\].text-neutral-900.text-left.relative</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[contains(text(),'Daftar Sebagai Dokter')]</value>
+         <value>//div[contains(text(),'Tertarik untuk Menjalankan Misi Simplifying Health')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>9633838d-9a27-492a-82a1-7e1a8aa0cb25</webElementGuid>
+      <webElementGuid>ad7f534c-acad-4fb3-aa06-8e29e9d68942</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>font-poppins font-semibold text-sm text-neutral-0 text-center bg-web-green-300 rounded-xl pt-4 pr-3 pb-4 pl-3 flex flex-row gap-2.5 items-center justify-center shrink-0 w-[299px] h-14 relative</value>
-      <webElementGuid>749f2d62-b44f-4de8-9b91-fbd4180148a7</webElementGuid>
+      <webElementGuid>48eb2da1-7553-4b46-9ba5-bb1f992cdd7a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/register-dokter</value>
-      <webElementGuid>1aa1b89c-e9c7-4ca5-a885-864278d1b536</webElementGuid>
+      <webElementGuid>c9d82174-e8ec-4d93-ab1d-ef72ceb51527</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Daftar Sebagai Dokter</value>
-      <webElementGuid>deb925f3-24e6-4be8-bf88-9859be3a4948</webElementGuid>
+      <webElementGuid>135f4cb1-48e7-44a5-8329-b6f95988509e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/div[@class=&quot;w-[1440px] mx-auto my-[100px] bg-neutral-0 flex flex-col gap-0 items-start justify-start relative overflow-hidden&quot;]/div[@class=&quot;flex flex-col gap-[106px] items-start justify-start shrink-0 relative&quot;]/div[@class=&quot;flex flex-col gap-[60px] items-center justify-start shrink-0 relative&quot;]/div[@class=&quot;flex flex-col gap-20 items-center justify-start shrink-0 relative&quot;]/div[2]/a[@class=&quot;font-poppins font-semibold text-sm text-neutral-0 text-center bg-web-green-300 rounded-xl pt-4 pr-3 pb-4 pl-3 flex flex-row gap-2.5 items-center justify-center shrink-0 w-[299px] h-14 relative&quot;]</value>
-      <webElementGuid>3bf059b4-628b-4103-947c-0f59b3636fa6</webElementGuid>
+      <webElementGuid>8c8aea1f-605a-4616-9fab-e13af8acd6d1</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Daftar Sebagai Dokter')]</value>
-      <webElementGuid>a5fdf500-e1bf-41a0-a840-d8cc65e716f0</webElementGuid>
+      <webElementGuid>d98eed8b-f63f-4b66-b2a3-e6ae9abc85ac</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Anda akan segera dihubungi oleh tim prevent melalui email untuk proses selanjutnya'])[1]/following::a[1]</value>
-      <webElementGuid>d19e3a8b-c324-44ea-8372-4f8e724993de</webElementGuid>
+      <webElementGuid>3ef58d76-a0eb-4a89-a8d9-d181b1f437f2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Persiapkan dokumen Curriculum Vitae, ijazah, STR (Post Internship) aktif dan SIP aktif.'])[1]/following::a[1]</value>
-      <webElementGuid>96e9c73a-d6f0-4346-9dce-fa8de7a99d4a</webElementGuid>
+      <webElementGuid>2e53c481-ec5e-4fd1-9604-d2d5aa2b0013</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Tentang Kami'])[1]/preceding::a[1]</value>
-      <webElementGuid>e11a95fe-def4-4b9b-b24b-5cffb5b3fe39</webElementGuid>
+      <webElementGuid>0edd4d69-9d8c-4403-a8b9-487adcbca3e6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Hubungi Kami'])[1]/preceding::a[2]</value>
-      <webElementGuid>19231fea-4721-477f-90c3-2f3cd4c9a059</webElementGuid>
+      <webElementGuid>e88099f7-0bf2-4f36-b59b-96c91fd21051</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Daftar Sebagai Dokter']/parent::*</value>
-      <webElementGuid>4edfd040-8166-459b-b59b-0e32a7bbda0f</webElementGuid>
+      <webElementGuid>5d9042e9-871b-47d5-a485-95f34e00c809</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/register-dokter')]</value>
-      <webElementGuid>85d2d0b9-6367-4906-b9fd-6a3b89d6c35a</webElementGuid>
+      <webElementGuid>71fa61bf-cae1-4e29-b140-c258317bad95</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +118,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/a</value>
-      <webElementGuid>6f8f4d7b-f4d2-4ee8-8aee-1a3756d482f4</webElementGuid>
+      <webElementGuid>e7fec8a7-4ba9-4e37-8f73-79d3b23fef87</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,6 +126,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '/register-dokter' and (text() = 'Daftar Sebagai Dokter' or . = 'Daftar Sebagai Dokter')]</value>
-      <webElementGuid>cd7852fd-7ba9-4b57-a7b1-6e0f15b64324</webElementGuid>
+      <webElementGuid>28cadb55-20ae-44aa-99fd-0978dc0475dc</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
