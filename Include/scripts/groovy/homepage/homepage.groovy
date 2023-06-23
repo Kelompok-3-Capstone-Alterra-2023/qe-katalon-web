@@ -63,7 +63,7 @@ class homepage {
 		WebUI.navigateToUrl('https://main--melodious-genie-0706de.netlify.app/')
 		WebUI.maximizeWindow()
 	}
-	
+
 	@When("User check for the (.*) in step")
 	def checkData(String value) {
 		WebUI.setText(findTestObject('Object Repository/homepage-web/Page_Prevent/Page_Prevent/input_Dokter Area_simple-search'), value)
@@ -74,35 +74,34 @@ class homepage {
 	def clickScroll() {
 
 		WebUI.click(findTestObject('Object Repository/homepage-web/Page_Prevent/a_Beranda'))
-		
-		
+
+
 		WebUI.scrollToPosition(0, 1000)
 		WebUI.navigateToUrl('https://main--melodious-genie-0706de.netlify.app/dokter')
 		WebUI.delay(3)
-		
-		
+
+
 		WebUI.navigateToUrl('https://main--melodious-genie-0706de.netlify.app/are-you-doctor')
 		WebUI.scrollToPosition(0, 1000)
 		WebUI.verifyElementVisible(findTestObject('Object Repository/homepage-web/Page_Prevent/Page_Prevent/a_Daftar Sebagai Dokter'), 0)
 		WebUI.delay(3)
-		
-		
+
+
 		WebUI.click(findTestObject('Object Repository/homepage-web/Page_Prevent/a_Tentang Kami'))
 		WebUI.scrollToPosition(0, 1000)
 		WebUI.verifyElementVisible(findTestObject('Object Repository/homepage-web/Page_Prevent/Page_Prevent/div_Brosur (Desktop)'), 0)
 		WebUI.delay(3)
-		
-		
+
+
 		WebUI.click(findTestObject('Object Repository/homepage-web/Page_Prevent/a_Hubungi Kami'))
 		WebUI.delay(3)
-		
+
 		WebUI.click(findTestObject('Object Repository/homepage-web/Page_Prevent/a_Dokter Area'))
 		WebUI.delay(3)
 		WebUI.verifyElementVisible(findTestObject('Object Repository/homepage-web/Page_Prevent/button_Log In'), 0)
 		WebUI.closeBrowser()
-
 	}
-	
+
 	@Then("User verify the (.*) in step")
 	def verifyData(String status) {
 		if (status == 'passed') {
