@@ -17,8 +17,4 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.acceptAlert()
-
-WebUI
-
-WebUI.comment("jasmine")
+CucumberKW.runFeatureFile('Include/features/homepage.feature')

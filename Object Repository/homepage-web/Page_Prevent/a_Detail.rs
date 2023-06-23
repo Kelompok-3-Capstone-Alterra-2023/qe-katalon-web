@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Detail</name>
+   <tag></tag>
+   <elementGuidId>84745867-e2a9-4582-9df9-ea1f8ad0bc84</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//a[contains(text(),'Detail')])[3]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>d73e14a1-6f06-424d-a427-4750cebb4fed</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>font-normal font-poppins text-neutral-0 text-xs/[120%] text-left  bg-web-green-300 hover:bg-web-green-400 rounded-xl pt-4 pr-3 pb-4 pl-3 flex flex-row gap-2.5 items-center justify-center shrink-0 w-[84px] h-[31px] relative</value>
+      <webElementGuid>9914beaa-7212-4534-a90a-22b798a76ad2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/detail-dokter/1</value>
+      <webElementGuid>ce1d4dfd-75db-48d1-becb-7baceda15979</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Detail</value>
+      <webElementGuid>00d9abdb-52f0-4af9-84cb-65579001266e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;mx-auto bg-neutral-0 w-[1440px] h-[1000px] relative overflow-hidden&quot;]/div[@class=&quot;flex flex-col gap-[45px] items-start justify-start absolute left-[541px] top-[250px]&quot;]/div[@class=&quot;flex flex-col gap-[17px] items-start justify-start shrink-0 relative&quot;]/div[@class=&quot;flex flex-col gap-4 items-start justify-start shrink-0 relative&quot;]/div[@class=&quot;flex flex-row flex-wrap gap-[45px] items-center justify-start shrink-0 relative&quot;]/div[@class=&quot;bg-neutral-0 rounded-[5px] shadow-[0_4px_4px_0_rgba(0,0,0,0.25)] flex flex-row gap-1.5 items-center justify-center shrink-0 w-[374px] h-[145px] relative&quot;]/div[@class=&quot;h-[134px] flex flex-col pb-[2px] items-start justify-between relative&quot;]/a[@class=&quot;font-normal font-poppins text-neutral-0 text-xs/[120%] text-left  bg-web-green-300 hover:bg-web-green-400 rounded-xl pt-4 pr-3 pb-4 pl-3 flex flex-row gap-2.5 items-center justify-center shrink-0 w-[84px] h-[31px] relative&quot;]</value>
+      <webElementGuid>7f695156-a1e6-4a78-b9ec-b84ba4bcf7c9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>(//a[contains(text(),'Detail')])[3]</value>
+      <webElementGuid>d395c258-f561-4968-9953-f8a661d6366b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='dummydummy'])[2]/following::a[1]</value>
+      <webElementGuid>8656b3bc-46c8-4e6e-a232-1dec57bfad2b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dokter Lainnya >'])[1]/following::a[1]</value>
+      <webElementGuid>df8aef7f-3020-4f40-830e-74619cccddab</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='dummydummy22'])[2]/preceding::a[1]</value>
+      <webElementGuid>5669a1cc-ac24-4f5f-bc69-d1b82dc19b54</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Detail'])[4]/preceding::a[1]</value>
+      <webElementGuid>0c35e080-290f-4678-a933-b158ab1e738c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '/detail-dokter/1')])[2]</value>
+      <webElementGuid>b503dec9-49de-48a0-913e-6de40ce26bd0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/a</value>
+      <webElementGuid>cb19de7d-8cfe-49e4-a809-811a83eea4ea</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/detail-dokter/1' and (text() = 'Detail' or . = 'Detail')]</value>
+      <webElementGuid>d6312954-0718-4e3f-8b64-bcd61b298272</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
