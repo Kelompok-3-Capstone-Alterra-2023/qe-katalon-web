@@ -56,11 +56,14 @@ class homepage {
 		WebUI.maximizeWindow()
 	}
 
+<<<<<<< HEAD
+=======
 	@Given("User launch website prevent for scenario verify navigation")
 	def launch_web_navigate() {
 		launch_web()
 	}
 
+>>>>>>> 1242592fface161ac3153c994d2b9a718c1172f6
 	@When("User check for the (.*) in step")
 	def checkData(String value) {
 		WebUI.setText(findTestObject('Object Repository/homepage-web/Page_Prevent/Page_Prevent/input_Dokter Area_simple-search'), value)
@@ -72,6 +75,12 @@ class homepage {
 	def clickScroll() {
 
 		WebUI.click(findTestObject('Object Repository/homepage-web/Page_Prevent/a_Beranda'))
+<<<<<<< HEAD
+
+
+		WebUI.scrollToPosition(0, 1000)
+=======
+>>>>>>> 1242592fface161ac3153c994d2b9a718c1172f6
 		WebUI.navigateToUrl('https://main--melodious-genie-0706de.netlify.app/dokter')
 		WebUI.delay(3)
 
@@ -79,8 +88,12 @@ class homepage {
 		WebUI.navigateToUrl('https://main--melodious-genie-0706de.netlify.app/are-you-doctor')
 		WebUI.verifyElementPresent(findTestObject('Object Repository/homepage-web/Page_Prevent/Page_Prevent/a_Daftar Sebagai Dokter'), 30)
 		WebUI.delay(3)
+<<<<<<< HEAD
+
+=======
 		WebUI.takeScreenshot()
 		WebUI.scrollToPosition(0, 1000)
+>>>>>>> 1242592fface161ac3153c994d2b9a718c1172f6
 
 		WebUI.click(findTestObject('Object Repository/homepage-web/Page_Prevent/a_Tentang Kami'))
 		WebUI.verifyElementPresent(findTestObject('Object Repository/homepage-web/Page_Prevent/Page_Prevent/div_Brosur (Desktop)'), 30)
