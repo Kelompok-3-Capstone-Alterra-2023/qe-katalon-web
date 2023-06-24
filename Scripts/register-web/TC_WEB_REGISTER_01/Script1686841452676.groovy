@@ -16,6 +16,13 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 
-WebUI.acceptAlert()
+WebUI.openBrowser('')
+WebUI.navigateToUrl(GlobalVariable.url)
 
+String directory = RunConfiguration.getProjectDir()
+def pathFile = (directory + '/Images/') + image1
+WebUI.uploadFile(findTestObject('Object Repository/register-web/OR001 - UploadFileCV'), pathFile)
+
+WebUI.delay(3)

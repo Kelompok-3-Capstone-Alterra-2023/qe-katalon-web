@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Artikel</name>
+   <tag></tag>
+   <elementGuidId>eb38455a-cb98-4df9-9c2a-30fb6a806f25</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'Artikel')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>e60f8432-e6e3-4e67-9a7d-85a8cf170b0b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/#article</value>
+      <webElementGuid>c3f00d80-6eb2-45ed-a85e-4c288963a03b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Artikel</value>
+      <webElementGuid>bad5689d-c408-48c8-b933-288a94d95a93</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/nav[@class=&quot;bg-web-green-300 fixed w-full z-50&quot;]/div[@class=&quot;max-w-[1440px] flex flex-wrap items-center justify-between mx-auto p-[22px]&quot;]/div[1]/ul[@class=&quot;font-poppins text-[20px] font-[700] flex flex-row gap-[61px]  text-white&quot;]/li[@class=&quot;border-b-4 border-[#8EBF59]&quot;]/a[1]</value>
+      <webElementGuid>dce54226-3504-44b3-ad15-827bda3ab45d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Artikel')]</value>
+      <webElementGuid>62e589b1-2080-4899-a6f2-b03dfbc6b99d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Beranda'])[1]/following::a[1]</value>
+      <webElementGuid>033e952a-5c05-4e17-a1a2-30a1ca6c77cd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dokter'])[1]/preceding::a[1]</value>
+      <webElementGuid>bfabcffe-8967-4437-8996-4c46add3dd39</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dokter Area'])[1]/preceding::a[1]</value>
+      <webElementGuid>8a80d365-f3cb-4b45-a331-5698745f5c76</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Artikel']/parent::*</value>
+      <webElementGuid>e278b058-5364-425c-b545-ec0d9d04053b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/#article')]</value>
+      <webElementGuid>7c80d3e8-3ed3-4b1b-ae67-12c807767c7c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[2]/a</value>
+      <webElementGuid>86b9fa62-ec0c-4c5f-9da4-8e9998e2ff60</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/#article' and (text() = ' Artikel' or . = ' Artikel')]</value>
+      <webElementGuid>c2b114a2-72f7-4e38-9365-e51583bd8210</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

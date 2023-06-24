@@ -1,0 +1,14 @@
+{
+<<<<<<< HEAD
+  "keywordFileContentHash": "8CE0127AF40B3BE2703FB1970B12EAF7",
+=======
+  "keywordFileContentHash": "32B6415DED99B61B1C4DE4CCC83538A8",
+>>>>>>> 1242592fface161ac3153c994d2b9a718c1172f6
+  "keywordClasses": [
+    {
+      "name": "homepage.homepage",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": false
+}

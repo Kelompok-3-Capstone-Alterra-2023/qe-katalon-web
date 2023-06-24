@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_WEB_REGISTER_01</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7dc6acd1-b47f-4863-868b-a0222b62ea8e</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>818caade-0609-4a06-b524-40e5ef590df9</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'self_ktp.jpeg'</defaultValue>
+      <description></description>
+      <id>818caade-0609-4a06-b524-40e5ef590df9</id>
+      <masked>false</masked>
+      <name>image1</name>
+   </variable>
+</TestCaseEntity>
