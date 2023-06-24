@@ -3,7 +3,7 @@
    <description></description>
    <name>a_Daftar Sebagai Dokter</name>
    <tag></tag>
-   <elementGuidId>616c5cc8-76b9-4b19-8cd5-657d4bff3775</elementGuidId>
+   <elementGuidId>20db8f42-2a58-40ce-ac1d-50870160ef80</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>624c13dc-5693-45d3-8858-8eb8163bfecc</webElementGuid>
+      <webElementGuid>b6c4a8c1-def4-4791-8305-e753515f4a12</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>font-poppins font-semibold text-sm text-neutral-0 text-center bg-web-green-300 rounded-xl pt-4 pr-3 pb-4 pl-3 flex flex-row gap-2.5 items-center justify-center shrink-0 w-[299px] h-14 relative</value>
-      <webElementGuid>66727444-bec1-4a91-8fa5-e239e0b7bcad</webElementGuid>
+      <webElementGuid>bf8d3b19-8d01-436a-9c6b-50db87643eed</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/register-dokter</value>
-      <webElementGuid>8cba54e5-90a6-4258-92a3-5449200c385d</webElementGuid>
+      <webElementGuid>62e3b8ff-a932-432d-bfb8-9519d78613c2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Daftar Sebagai Dokter</value>
-      <webElementGuid>26f6793e-bddb-42a5-afa9-7e3bac02dfd8</webElementGuid>
+      <webElementGuid>71d09a29-a2ad-4a14-86cd-b8ecff510c7c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/div[@class=&quot;w-[1440px] mx-auto my-[100px] bg-neutral-0 flex flex-col gap-0 items-start justify-start relative overflow-hidden&quot;]/div[@class=&quot;flex flex-col gap-[106px] items-start justify-start shrink-0 relative&quot;]/div[@class=&quot;flex flex-col gap-[60px] items-center justify-start shrink-0 relative&quot;]/div[@class=&quot;flex flex-col gap-20 items-center justify-start shrink-0 relative&quot;]/div[2]/a[@class=&quot;font-poppins font-semibold text-sm text-neutral-0 text-center bg-web-green-300 rounded-xl pt-4 pr-3 pb-4 pl-3 flex flex-row gap-2.5 items-center justify-center shrink-0 w-[299px] h-14 relative&quot;]</value>
-      <webElementGuid>f828cbd3-35ec-45c8-8f3f-5cba8c27cb18</webElementGuid>
+      <webElementGuid>757db99a-7ee8-415c-9a02-41efda91d9e9</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Daftar Sebagai Dokter')]</value>
-      <webElementGuid>d3e79949-8d18-47e1-9ea8-d3736ad63452</webElementGuid>
+      <webElementGuid>32d34f5e-e52d-4cab-8938-aae7822c142d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Anda akan segera dihubungi oleh tim prevent melalui email untuk proses selanjutnya'])[1]/following::a[1]</value>
-      <webElementGuid>2dde3915-40c7-4dd5-9188-c3d7eb18a334</webElementGuid>
+      <webElementGuid>ab7a4e49-7e97-446d-9bf6-5832fcd8aa3a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Persiapkan dokumen Curriculum Vitae, ijazah, STR (Post Internship) aktif dan SIP aktif.'])[1]/following::a[1]</value>
-      <webElementGuid>68786799-e246-430d-960b-1e52ec6d9adc</webElementGuid>
+      <webElementGuid>bbd9e3e9-729f-41a6-9604-06606d7cc812</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Tentang Kami'])[1]/preceding::a[1]</value>
-      <webElementGuid>0b33a0bc-5721-4eea-83b4-3f2694243300</webElementGuid>
+      <webElementGuid>42f0a524-500f-438f-9f87-9561cc1fa3d8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Hubungi Kami'])[1]/preceding::a[2]</value>
-      <webElementGuid>5abe640a-e831-4ccd-b8b4-24be4e850317</webElementGuid>
+      <webElementGuid>b03d6021-87d3-43e6-90eb-be2d60d3a537</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Daftar Sebagai Dokter']/parent::*</value>
-      <webElementGuid>4f1c6435-4d06-43a7-bf0b-647bf4c5b7ee</webElementGuid>
+      <webElementGuid>6afb07e8-6d53-4421-9afb-808018d01626</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/register-dokter')]</value>
-      <webElementGuid>6a506389-ef1c-49cc-a3f4-6748a669ffbc</webElementGuid>
+      <webElementGuid>a70c7c60-9d22-4327-952c-d5d7b896fa42</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +118,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/a</value>
-      <webElementGuid>d6863649-3638-4e6b-b3ed-7ecece732642</webElementGuid>
+      <webElementGuid>9a6508c8-bdec-42b4-8a53-19ad5946e82c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,6 +126,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '/register-dokter' and (text() = 'Daftar Sebagai Dokter' or . = 'Daftar Sebagai Dokter')]</value>
-      <webElementGuid>6fec6f6a-a1be-4292-83e8-47f6a5e3556f</webElementGuid>
+      <webElementGuid>dbf1e320-6bf0-400f-9ed4-3d2ba5a17cba</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

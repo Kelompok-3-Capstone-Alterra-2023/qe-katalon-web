@@ -45,32 +45,40 @@ import cucumber.api.java.en.When
 
 
 class login {
-//login 1//
+	//login 1//
 	@Given("I open website prevent for login with valid data https://main--starlit-lokum-26b84a.netlify.app/")
 	def open_website_for_login_with_valid_data() {
 		WebUI.openBrowser('')
-		
 		WebUI.navigateToUrl('https://main--starlit-lokum-26b84a.netlify.app/')
+		WebUI.maximizeWindow()
 	}
 
 	@When("I navigated to login page for login with valid data")
 	def navigated_login_page_with_valid_data() {
+		WebUI.delay(2)
 		WebUI.click(findTestObject('Object Repository/login-web/Page_Prevent/a_Dokter Area'))
+
 	}
 	@And("I fill email (.*) and password (.*) for login with valid data")
 	def fill_email_password_with_valid_data(String email1, String password1) {
 		WebUI.setText(findTestObject('Object Repository/login-web/Page_Prevent/input_Email_email'), 'rifkhihebat@upi.edu')
-
+		WebUI.delay(2)
+		WebUI.takeScreenshot()
 		WebUI.click(findTestObject('Object Repository/login-web/Page_Prevent/label_Password'))
-
+		WebUI.delay(2)
+		WebUI.takeScreenshot()
 		WebUI.setEncryptedText(findTestObject('Object Repository/login-web/Page_Prevent/input_Email_password'), 'IAFXosDtfqfih8n2pouL5A==')
+		WebUI.delay(2)
+		WebUI.takeScreenshot()
 	}
 	@Then("I click button login and verify successfully login")
 	def verify_successfully_login() {
 		WebUI.click(findTestObject('Object Repository/login-web/Page_Prevent/button_Log In'))
-		
+		WebUI.delay(2)
+		WebUI.takeScreenshot()
 		WebUI.click(findTestObject('Object Repository/login-web/Page_Prevent - Dokter/p_Hallo, Selamat Datang, Dokter dummydummy'))
-		
+		WebUI.delay(3)
+		WebUI.takeScreenshot()
 		WebUI.closeBrowser()
 	}
 
@@ -78,26 +86,32 @@ class login {
 	@Given("I open website prevent for login with invalid data https://main--starlit-lokum-26b84a.netlify.app/")
 	def open_website_for_login_with_invalid_data() {
 		WebUI.openBrowser('')
-
 		WebUI.navigateToUrl('https://main--starlit-lokum-26b84a.netlify.app/')
+		WebUI.maximizeWindow()
 	}
 
 	@When("I navigated to login page for login with invalid data")
 	def navigated_login_page_with_invalid_data() {
+		WebUI.delay(2)
 		WebUI.click(findTestObject('Object Repository/login-web/Page_Prevent/a_Dokter Area'))
 	}
 	@And("I fill email (.*) and password (.*) for login with invalid data")
 	def fill_email_password_with_invalid_data(String email2, String password2) {
 		WebUI.setText(findTestObject('Object Repository/login-web/Page_Prevent/input_Email_email'), 'rifkhihebat@upi.edu')
-
+		WebUI.delay(2)
+		WebUI.takeScreenshot()
 		WebUI.setEncryptedText(findTestObject('Object Repository/login-web/Page_Prevent/input_Email_password'), 'IAFXosDtfqfSaKDEEhsuig==')
+		WebUI.delay(2)
+		WebUI.takeScreenshot()
 	}
 	@Then("I click button login and verify unsuccessfully login with invalid data")
 	def verify_unsuccessfully_login_with_invalid_data() {
 		WebUI.click(findTestObject('Object Repository/login-web/Page_Prevent/p_Log In'))
-		
+		WebUI.delay(2)
+		WebUI.takeScreenshot()
 		WebUI.click(findTestObject('Object Repository/login-web/Page_Prevent/div_Email atau kata sandi salah. Silahkan c_383427'))
-		
+		WebUI.delay(2)
+		WebUI.takeScreenshot()
 		WebUI.closeBrowser()
 	}
 
@@ -105,24 +119,32 @@ class login {
 	@Given("I open website prevent for login with blank data https://main--starlit-lokum-26b84a.netlify.app/")
 	def open_website_for_login_with_blank_data() {
 		WebUI.openBrowser('')
-		
 		WebUI.navigateToUrl('https://main--starlit-lokum-26b84a.netlify.app/')
+		WebUI.maximizeWindow()
 	}
 
 	@When("I navigated to login page for login with blank data")
 	def navigated_login_page_with_blank_data() {
+		WebUI.delay(2)
 		WebUI.click(findTestObject('Object Repository/login-web/Page_Prevent/a_Dokter Area'))
 	}
 	@And("I fill email (.*) and password (.*) for login with blank data")
 	def fill_email_password_with_blank_data(String email3, String password3) {
 		WebUI.setText(findTestObject('Object Repository/login-web/Page_Prevent/input_Email_email'), ' ')
-
+		WebUI.delay(2)
+		WebUI.takeScreenshot()
 		WebUI.setEncryptedText(findTestObject('Object Repository/login-web/Page_Prevent/input_Email_password'), ' ')
+		WebUI.delay(2)
+		WebUI.takeScreenshot()
 	}
 	@Then("I click button login and verify unsuccessfully login with blank data")
 	def verify_unsuccessfully_login_with_blank_data() {
+		WebUI.click(findTestObject('Object Repository/login-web/Page_Prevent/p_Log In'))
+		WebUI.delay(2)
+		WebUI.takeScreenshot()
 		WebUI.click(findTestObject('Object Repository/login-web/Page_Prevent/form_EmailPasswordLog InLupa kata sandi'))
-		
+		WebUI.delay(2)
+		WebUI.takeScreenshot()
 		WebUI.closeBrowser()
 	}
 }

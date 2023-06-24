@@ -1,8 +1,8 @@
 {
-  "keywordFileContentHash": "4060049DB63F2DC9CD7A0A6D7457F4EA",
+  "keywordFileContentHash": "54D07BA8704F55472CAD0820A064D591",
   "keywordClasses": [
     {
-      "name": "login.login",
+      "name": "chat.chat",
       "keywordMethods": []
     }
   ],

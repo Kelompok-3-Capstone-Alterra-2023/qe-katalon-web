@@ -3,7 +3,7 @@
    <description></description>
    <name>input_nik</name>
    <tag></tag>
-   <elementGuidId>a20e5b51-2594-49af-8b25-04ab9c14d4a0</elementGuidId>
+   <elementGuidId>4575a9b5-5a49-42b6-8382-89045100c810</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>e9857d18-4780-4502-9edf-0681ff345d2b</webElementGuid>
+      <webElementGuid>a6eab862-c3a5-4687-9717-a26861b8a283</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>cdfd2c87-e825-4d06-a8c8-cb8729bdb801</webElementGuid>
+      <webElementGuid>6266649b-ec98-469e-abbf-f55beee90998</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>NIK</value>
-      <webElementGuid>8cd22611-fc2a-4919-a058-8d8c2ff30fc1</webElementGuid>
+      <webElementGuid>790ca348-b89b-4141-ac56-4288cef9fba5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>16</value>
-      <webElementGuid>22501a51-5be7-48fe-97b0-4621c1faf0dc</webElementGuid>
+      <webElementGuid>c0ab28c8-d957-43a1-8111-72555d3b3254</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>class</name>
       <type>Main</type>
       <value>w-full  border  rounded-lg border-neutral-70 </value>
-      <webElementGuid>7af6f08f-a685-4185-95ad-512a9935fba7</webElementGuid>
+      <webElementGuid>ead62977-0a00-49dd-a2e1-13388b10143b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>name</name>
       <type>Main</type>
       <value>nik</value>
-      <webElementGuid>58e656be-a8df-4612-86c4-3cbd157c198e</webElementGuid>
+      <webElementGuid>899b4fc1-541b-41c8-b2ec-603480840d3c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/section[@class=&quot;min-screen-2xl h-screen flex bg-gray-500&quot;]/div[@class=&quot;w-1/2 bg-neutral-0 flex flex-col justify-center&quot;]/div[@class=&quot;w-[480px] flex flex-col gap-8 mx-auto text-center&quot;]/form[@class=&quot;flex flex-col gap-8&quot;]/div[3]/input[@class=&quot;w-full  border  rounded-lg border-neutral-70&quot;]</value>
-      <webElementGuid>a185f8c4-1a80-411f-b6eb-c58f088eb33d</webElementGuid>
+      <webElementGuid>7bf98d8b-764e-4354-9185-7de487391ed2</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@name='nik']</value>
-      <webElementGuid>2161a32c-2c5a-430f-8b92-e60bfd23d85b</webElementGuid>
+      <webElementGuid>a92ac8cf-52ab-419d-9312-b8ee6fb5df51</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/input</value>
-      <webElementGuid>56255977-e7d5-4b5c-af85-e137a401bc48</webElementGuid>
+      <webElementGuid>adac47e7-6a66-494b-9bfe-fa26974a0e39</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +94,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text' and @placeholder = 'NIK' and @name = 'nik']</value>
-      <webElementGuid>a5de37ef-0686-41aa-b570-839bbf3899aa</webElementGuid>
+      <webElementGuid>acf70e6c-125e-48a8-bf3c-3961810817c6</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

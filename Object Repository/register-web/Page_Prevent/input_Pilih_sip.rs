@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_agama</name>
+   <name>input_Pilih_sip</name>
    <tag></tag>
-   <elementGuidId>08613e93-2fa3-4301-b204-0484e93521fb</elementGuidId>
+   <elementGuidId>37019464-ce7e-445d-b59f-f654a118992e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@name='agama']</value>
+         <value>//input[@id='file-input-sip']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>input[name=&quot;agama&quot;]</value>
+         <value>#file-input-sip</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,70 +22,62 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>859c97f8-2969-4c32-bddd-28cb541495e5</webElementGuid>
+      <webElementGuid>fe7bb3ee-3865-493b-98ce-225950b95b6e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>file-input-sip</value>
+      <webElementGuid>6a8f0573-20e6-4995-af14-34dbbb358cd3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>text</value>
-      <webElementGuid>3962219a-3da2-473e-b5bf-7c61b1de9768</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>placeholder</name>
-      <type>Main</type>
-      <value>Agama</value>
-      <webElementGuid>82fd8936-26c5-4442-9622-2e604ca98959</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>w-full  border  rounded-lg border-neutral-70 </value>
-      <webElementGuid>085ce2ab-5046-4244-9986-d3ee7c36af63</webElementGuid>
+      <value>file</value>
+      <webElementGuid>7bf067d8-8a75-4683-b424-f38dd8ce8f8c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>agama</value>
-      <webElementGuid>6b18a58e-03f2-43f0-a9a9-3ebee2972305</webElementGuid>
+      <value>sip</value>
+      <webElementGuid>d59cfaf2-c893-4622-817c-6e40440f996f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/section[@class=&quot;min-screen-2xl h-screen flex bg-gray-500&quot;]/div[@class=&quot;w-1/2 bg-neutral-0 flex flex-col justify-center&quot;]/div[@class=&quot;w-[480px] flex flex-col gap-8 mx-auto text-center&quot;]/form[@class=&quot;flex flex-col gap-8&quot;]/div[7]/input[@class=&quot;w-full  border  rounded-lg border-neutral-70&quot;]</value>
-      <webElementGuid>422aa68c-f796-4de8-980a-f91726c0743e</webElementGuid>
+      <value>id(&quot;file-input-sip&quot;)</value>
+      <webElementGuid>c88b75ef-cad4-4f3f-a9e2-ce5b216c0719</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@name='agama']</value>
-      <webElementGuid>535b4b5b-d873-42d7-b8e2-db0ec1e33f05</webElementGuid>
+      <value>//input[@id='file-input-sip']</value>
+      <webElementGuid>50b99c60-27c0-4cfe-bd3e-7052a6da3ffc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[7]/input</value>
-      <webElementGuid>db47cad6-70ad-41dc-a119-27efdb24c73f</webElementGuid>
+      <value>//div[4]/div/input</value>
+      <webElementGuid>6e460adb-26f0-49b8-a4fe-63e0daf51633</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@type = 'text' and @placeholder = 'Agama' and @name = 'agama']</value>
-      <webElementGuid>2d15c27f-f10d-4966-aa76-f1ac71ee33e2</webElementGuid>
+      <value>//input[@id = 'file-input-sip' and @type = 'file' and @name = 'sip']</value>
+      <webElementGuid>c91fab8a-a955-4f82-9a09-ff8eb68d9354</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

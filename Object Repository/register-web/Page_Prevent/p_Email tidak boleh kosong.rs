@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>p_Email tidak valid</name>
+   <name>p_Email tidak boleh kosong</name>
    <tag></tag>
-   <elementGuidId>b2a9d2da-816f-40f8-8b35-e658dde4b4fd</elementGuidId>
+   <elementGuidId>a578a51e-651e-4346-a453-00e6689cdffc</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*/text()[normalize-space(.)='Email tidak valid']/parent::*</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::p[8]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>p</value>
-      <webElementGuid>1abc2571-08da-4469-bb5b-4c2422e51388</webElementGuid>
+      <webElementGuid>ec240d8e-dfec-44e3-8174-35d7796120d4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,15 +30,15 @@
       <name>class</name>
       <type>Main</type>
       <value>text-[14px] text-left text-red-600 absolute</value>
-      <webElementGuid>f21a1b6c-a612-4bf7-afff-5446195eb388</webElementGuid>
+      <webElementGuid>919fe3b8-311a-4918-ac2d-898ad50da6a5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Email tidak valid</value>
-      <webElementGuid>67b1ab04-275f-411b-89ee-54a65e990dea</webElementGuid>
+      <value>Email tidak boleh kosong</value>
+      <webElementGuid>355f1f6c-dd09-42d0-a720-ba622fef9b5a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,15 +46,31 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/section[@class=&quot;min-screen-2xl h-screen flex bg-gray-500&quot;]/div[@class=&quot;w-1/2 bg-neutral-0 flex flex-col justify-center&quot;]/div[@class=&quot;w-[480px] flex flex-col gap-8 mx-auto text-center&quot;]/form[@class=&quot;flex flex-col gap-8&quot;]/div[1]/p[@class=&quot;text-[14px] text-left text-red-600 absolute&quot;]</value>
-      <webElementGuid>c0307ddf-6b68-4fe7-8103-6817b5b48d45</webElementGuid>
+      <webElementGuid>a5aa9cdf-dbf3-485d-bf31-405cd9a917bb</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Email tidak valid']/parent::*</value>
-      <webElementGuid>efbffb05-237f-44b2-a7ff-1dda28eabb86</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::p[8]</value>
+      <webElementGuid>2e7f87b9-3dc9-479c-bbbd-d3e39df8ee66</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[1]/preceding::p[8]</value>
+      <webElementGuid>6a9c8fc9-18a5-4cdd-a127-108199017ff5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Email tidak boleh kosong']/parent::*</value>
+      <webElementGuid>e4ad15a9-5af6-4a8e-acd5-51cb72835943</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,14 +78,14 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//form/div/p</value>
-      <webElementGuid>353296ac-6b0a-4a66-a69e-8dc0ce37da39</webElementGuid>
+      <webElementGuid>ce85d825-2cb9-4fd2-a597-a35f55a978b3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//p[(text() = 'Email tidak valid' or . = 'Email tidak valid')]</value>
-      <webElementGuid>0e48bc51-bb41-46af-9693-41accea923db</webElementGuid>
+      <value>//p[(text() = 'Email tidak boleh kosong' or . = 'Email tidak boleh kosong')]</value>
+      <webElementGuid>9655bd5d-b64b-4450-9cf5-3e45fcb54945</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

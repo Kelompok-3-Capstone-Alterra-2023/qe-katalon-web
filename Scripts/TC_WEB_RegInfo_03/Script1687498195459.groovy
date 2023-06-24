@@ -21,29 +21,29 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://main--melodious-genie-0706de.netlify.app/')
 
-WebUI.click(findTestObject('Object Repository/register-web/TC_WEB_RegInfo_03/svg_Dokter_w-6 h-6 ml-2'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Object Repository/register-web/TC_WEB_RegInfo_03/a_Apakah Kamu Dokter'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Object Repository/register-web/TC_WEB_RegInfo_03/a_Daftar Sebagai Dokter'))
+WebUI.click(findTestObject('null'))
 
-WebUI.setText(findTestObject('Object Repository/register-web/TC_WEB_RegInfo_03/input_email'), 'dummy21')
+WebUI.setText(findTestObject('null'), 'dummy21')
 
-WebUI.setText(findTestObject('Object Repository/register-web/TC_WEB_RegInfo_03/input_namaLengkap'), 'Dummy')
+WebUI.setText(findTestObject('null'), 'Dummy')
 
-WebUI.setText(findTestObject('Object Repository/register-web/TC_WEB_RegInfo_03/input_nik'), '3176890102030405')
+WebUI.setText(findTestObject('null'), '3176890102030405')
 
-WebUI.setText(findTestObject('Object Repository/register-web/TC_WEB_RegInfo_03/input_jenisKelamin'), 'Perempuan')
+WebUI.setText(findTestObject('null'), 'Perempuan')
 
-WebUI.setText(findTestObject('Object Repository/register-web/TC_WEB_RegInfo_03/input_tempatLahir'), 'Jakarta')
+WebUI.setText(findTestObject('null'), 'Jakarta')
 
-WebUI.setText(findTestObject('Object Repository/register-web/TC_WEB_RegInfo_03/input_agama'), 'Islam')
+WebUI.setText(findTestObject('null'), 'Islam')
 
-WebUI.click(findTestObject('Object Repository/register-web/TC_WEB_RegInfo_03/button_Lanjut'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Object Repository/register-web/TC_WEB_RegInfo_03/form_Email tidak validLanjut'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Object Repository/register-web/TC_WEB_RegInfo_03/p_Email tidak valid'))
+WebUI.click(findTestObject('null'))
 
 WebUI.closeBrowser()
 
