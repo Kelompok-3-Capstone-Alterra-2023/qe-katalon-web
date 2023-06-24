@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC_WEB_HOMEPAGE_01</name>
+   <name>TC_DetailDokter</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>a4a2af61-c076-4962-aa52-380db0c072a1</testCaseGuid>
+   <testCaseGuid>f2c6b8ca-3748-4d45-b382-db16be497442</testCaseGuid>
 </TestCaseEntity>

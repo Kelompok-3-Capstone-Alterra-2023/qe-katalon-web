@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Dokter</name>
+   <tag></tag>
+   <elementGuidId>4730db3d-5bb7-4c1a-b039-bcbcf7289a57</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//input[@type='text'])[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>9f57f5ea-54bd-4ba8-98c8-c7cf77718519</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>2667179c-e7c0-4ba9-9dfb-05d331d38211</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>font-inter font-normal text-lg text-[rgba(0,0,0,0.55)] text-left bg-neutral-0 rounded-[9px] border-solid border-[#848484] border-2 w-full h-[61px] pl-4 pr-12</value>
+      <webElementGuid>4e0b50e9-2346-4799-826a-33d447096cf7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Cari nama dokter (eq. Fauzan Hakim)</value>
+      <webElementGuid>5ae7c3d2-55a1-45ce-a2e5-d19dcef7d0f1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;mx-auto bg-neutral-0 w-[1440px] h-[1000px] relative overflow-hidden&quot;]/div[@class=&quot;flex flex-row items-center justify-start absolute left-[541px] top-[150px]&quot;]/div[@class=&quot;relative w-[835px]&quot;]/input[@class=&quot;font-inter font-normal text-lg text-[rgba(0,0,0,0.55)] text-left bg-neutral-0 rounded-[9px] border-solid border-[#848484] border-2 w-full h-[61px] pl-4 pr-12&quot;]</value>
+      <webElementGuid>0b19610a-07a7-478f-a6cd-6e3abade2b47</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//input[@type='text'])[2]</value>
+      <webElementGuid>8730756e-bdfb-4530-9664-5290e62ff05d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div/input</value>
+      <webElementGuid>fb36179c-cdc0-4149-9303-3a7be9f9ff2b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'text' and @placeholder = 'Cari nama dokter (eq. Fauzan Hakim)']</value>
+      <webElementGuid>bef58bd0-e30f-4c84-b15a-21f98b5d2248</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

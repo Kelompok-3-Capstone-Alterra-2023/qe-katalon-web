@@ -1,5 +1,4 @@
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
-
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
@@ -17,6 +16,13 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 
-CucumberKW.runFeatureFile('Include/features/detailDoctor.feature')
+WebUI.openBrowser('')
+WebUI.navigateToUrl(GlobalVariable.url)
 
+String directory = RunConfiguration.getProjectDir()
+def pathFile = (directory + '/Images/') + image1
+WebUI.uploadFile(findTestObject('Object Repository/register-web/OR001 - UploadFileCV'), pathFile)
+
+WebUI.delay(3)
