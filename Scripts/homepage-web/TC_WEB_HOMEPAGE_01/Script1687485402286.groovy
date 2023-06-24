@@ -17,8 +17,4 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-<<<<<<< HEAD
 CucumberKW.runFeatureFile('Include/features/homepage.feature')
-=======
-CucumberKW.runFeatureFile('Include/features/homepage.feature')
->>>>>>> 25c82ef1d05498e083bc26da7b70f2cf0c15410a
