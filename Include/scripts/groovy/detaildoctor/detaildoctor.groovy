@@ -52,20 +52,20 @@ class detaildoctor {
 		WebUI.navigateToUrl('https://main--starlit-lokum-26b84a.netlify.app/dokter')
 		WebUI.maximizeWindow()
 	}
-	
+
 	@Given("User launch website prevent on are you doctor page")
 	def launchAreuDoc() {
 		WebUI.openBrowser('')
 		WebUI.navigateToUrl('https://main--starlit-lokum-26b84a.netlify.app/are-you-doctor')
 		WebUI.maximizeWindow()
 	}
-	
+
 	@When("User can click button detail")
 	def detDoc() {
 		WebUI.click(findTestObject('Object Repository/detaildoctor-web/Page_Prevent/a_Detail'))
 		WebUI.takeScreenshot()
 	}
-	
+
 	@When("User can click button daftar")
 	def regDoc() {
 		WebUI.scrollToPosition(0, 1000)
@@ -99,7 +99,7 @@ class detaildoctor {
 		WebUI.delay(3)
 		WebUI.closeBrowser()
 	}
-	
+
 	@Then("On page register doctor")
 	def onRegDoc() {
 		WebUI.verifyElementPresent(findTestObject('Object Repository/detaildoctor-web/Page_Prevent/input_email'), 30)
@@ -107,5 +107,4 @@ class detaildoctor {
 		WebUI.delay(3)
 		WebUI.closeBrowser()
 	}
-	
 }
