@@ -49,18 +49,63 @@ class detaildoctor {
 	@Given("User launch website prevent on doctor page")
 	def launch_web_doctor() {
 		WebUI.openBrowser('')
-		WebUI.navigateToUrl('https://main--melodious-genie-0706de.netlify.app/dokter')
+		WebUI.navigateToUrl('https://main--starlit-lokum-26b84a.netlify.app/dokter')
 		WebUI.maximizeWindow()
 	}
-
-
-	@When("User check for the (.*) doctor")
-	def I_check_for_the_value_in_step(int value) {
-		println value
+	
+	@Given("User launch website prevent on are you doctor page")
+	def launchAreuDoc() {
+		WebUI.openBrowser('')
+		WebUI.navigateToUrl('https://main--starlit-lokum-26b84a.netlify.app/are-you-doctor')
+		WebUI.maximizeWindow()
+	}
+	
+	@When("User can click button detail")
+	def detDoc() {
+		WebUI.click(findTestObject('Object Repository/detaildoctor-web/Page_Prevent/a_Detail'))
+		WebUI.takeScreenshot()
+	}
+	
+	@When("User can click button daftar")
+	def regDoc() {
+		WebUI.scrollToPosition(0, 1000)
+		WebUI.click(findTestObject('Object Repository/detaildoctor-web/Page_Prevent/a_Daftar Sebagai Dokter'))
+		WebUI.takeScreenshot()
 	}
 
-	@Then("I verify the (.*) in step")
-	def I_verify_the_status_in_step(String status) {
-		println status
+	@Then("User can check for the valid name doctor")
+	def validDoc() {
+		WebUI.click(findTestObject('Object Repository/detaildoctor-web/Page_Prevent/input_Dokter akan segera menerima permintaa_9a7ed8'))
+		WebUI.setText(findTestObject('Object Repository/detaildoctor-web/Page_Prevent/input_Dokter akan segera menerima permintaa_9a7ed8'),'a')
+		WebUI.click(findTestObject('Object Repository/detaildoctor-web/Page_Prevent/input_Dokter akan segera menerima permintaa_9a7ed8'))
+		WebUI.setText(findTestObject('Object Repository/detaildoctor-web/Page_Prevent/input_Dokter akan segera menerima permintaa_9a7ed8'),'ad')
+		WebUI.verifyElementPresent(findTestObject('Object Repository/detaildoctor-web/Page_Prevent/div_Adolf Hitler'), 30)
+		WebUI.takeScreenshot()
+		WebUI.closeBrowser()
 	}
+	@Then("User can check for the invalid name doctor")
+	def invalidDoc() {
+		WebUI.click(findTestObject('Object Repository/detaildoctor-web/Page_Prevent/input_Dokter akan segera menerima permintaa_9a7ed8'))
+		WebUI.setText(findTestObject('Object Repository/detaildoctor-web/Page_Prevent/input_Dokter akan segera menerima permintaa_9a7ed8'),'x')
+		WebUI.delay(3)
+		WebUI.takeScreenshot()
+		WebUI.closeBrowser()
+	}
+
+	@Then("On page detail doctor")
+	def onDetDoc() {
+		WebUI.verifyElementPresent(findTestObject('Object Repository/detaildoctor-web/Page_Prevent/img'), 30)
+		WebUI.takeScreenshot()
+		WebUI.delay(3)
+		WebUI.closeBrowser()
+	}
+	
+	@Then("On page register doctor")
+	def onRegDoc() {
+		WebUI.verifyElementPresent(findTestObject('Object Repository/detaildoctor-web/Page_Prevent/input_email'), 30)
+		WebUI.takeScreenshot()
+		WebUI.delay(3)
+		WebUI.closeBrowser()
+	}
+	
 }

@@ -1,10 +1,10 @@
 {
-  "keywordFileContentHash": "E7C18F196069AEEC10FF351ACC1CC1D6",
+  "keywordFileContentHash": "D17160B5D5FD6A6230526980D7A60427",
   "keywordClasses": [
     {
       "name": "detaildoctor.detaildoctor",
       "keywordMethods": []
     }
   ],
-  "javadocParsed": true
+  "javadocParsed": false
 }
