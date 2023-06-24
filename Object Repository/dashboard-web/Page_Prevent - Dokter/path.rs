@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>path</name>
+   <tag></tag>
+   <elementGuidId>17e5c5e8-2fb6-4523-81a2-4c2912527451</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>path</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>path</value>
+      <webElementGuid>2cba4e15-0397-4218-888a-98a4f7e1c870</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>d</name>
+      <type>Main</type>
+      <value>M13.4166 0.250001L16.3333 3.34167L6.74992 13.5L16.3333 23.6583L13.4166 26.75L0.916585 13.5L13.4166 0.250001Z</value>
+      <webElementGuid>88324da3-cdd6-4c9f-a247-2a405f130623</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>fill</name>
+      <type>Main</type>
+      <value>#577536</value>
+      <webElementGuid>94ba8a08-aced-41c5-9aa6-3cc787436587</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;flex flex-row&quot;]/div[@class=&quot;h-full w-full&quot;]/main[@class=&quot;lg:pl-20 h-full&quot;]/div[@class=&quot;h-full&quot;]/section[@class=&quot;mx-auto max-w-[1440px]&quot;]/div[@class=&quot;ml-16&quot;]/a[1]/button[1]/div[1]/svg[1]/path[1]</value>
+      <webElementGuid>8fa75b48-0887-4178-97f4-31513a988e4c</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

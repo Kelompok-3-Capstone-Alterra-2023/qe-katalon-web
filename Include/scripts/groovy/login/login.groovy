@@ -45,11 +45,11 @@ import cucumber.api.java.en.When
 
 
 class login {
-//login 1//
+	//login 1//
 	@Given("I open website prevent for login with valid data https://main--starlit-lokum-26b84a.netlify.app/")
 	def open_website_for_login_with_valid_data() {
 		WebUI.openBrowser('')
-		
+
 		WebUI.navigateToUrl('https://main--starlit-lokum-26b84a.netlify.app/')
 	}
 
@@ -68,9 +68,9 @@ class login {
 	@Then("I click button login and verify successfully login")
 	def verify_successfully_login() {
 		WebUI.click(findTestObject('Object Repository/login-web/Page_Prevent/button_Log In'))
-		
+
 		WebUI.click(findTestObject('Object Repository/login-web/Page_Prevent - Dokter/p_Hallo, Selamat Datang, Dokter dummydummy'))
-		
+
 		WebUI.closeBrowser()
 	}
 
@@ -95,9 +95,9 @@ class login {
 	@Then("I click button login and verify unsuccessfully login with invalid data")
 	def verify_unsuccessfully_login_with_invalid_data() {
 		WebUI.click(findTestObject('Object Repository/login-web/Page_Prevent/p_Log In'))
-		
+
 		WebUI.click(findTestObject('Object Repository/login-web/Page_Prevent/div_Email atau kata sandi salah. Silahkan c_383427'))
-		
+
 		WebUI.closeBrowser()
 	}
 
@@ -105,7 +105,7 @@ class login {
 	@Given("I open website prevent for login with blank data https://main--starlit-lokum-26b84a.netlify.app/")
 	def open_website_for_login_with_blank_data() {
 		WebUI.openBrowser('')
-		
+
 		WebUI.navigateToUrl('https://main--starlit-lokum-26b84a.netlify.app/')
 	}
 
@@ -122,7 +122,7 @@ class login {
 	@Then("I click button login and verify unsuccessfully login with blank data")
 	def verify_unsuccessfully_login_with_blank_data() {
 		WebUI.click(findTestObject('Object Repository/login-web/Page_Prevent/form_EmailPasswordLog InLupa kata sandi'))
-		
+
 		WebUI.closeBrowser()
 	}
 }
