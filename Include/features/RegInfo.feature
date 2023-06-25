@@ -20,34 +20,58 @@
 Feature: Register doctor prevent
   I want to use this feature to Register website prevent as a doctor
 
-  @register1
+  @reginfo1
   Scenario Outline: Register with valid data
-    Given User launch open website prevent for regist with valid data
-    When User open register page for regist with valid data
-    And User fill <email>,<name>,<NIK>,<gender>,<place>,<dob>,<religion> for regist with valid data
-    Then Successfully register with valid data
+    Given I open website prevent for register personal info with valid data https://main--starlit-lokum-26b84a.netlify.app/
+    When I navigated to register page for register account with valid data
+    And I fill <email7>,<name1>,<NIK1>,<gender1>,<place1>,<dob1>,<religion1> for regist with valid data
+    Then Successfully register with valid data and navigated to academic information page
 
     Examples: 
-    	|	email1
-      | dummy21@dummy.cpom | Dummy  | 3176890102030405		|	Perempuan	|	Jakarta	|	01/06/199		|	Islam			|	
+    	|	email7							|	name1		|	NIK1								| gender1		|	place1	|	dob1					|	religion1	|
+      | dummy21@dummy.com 	| Dummy  	| 3176890102030405		|	Perempuan	|	Jakarta	|	01/06/1995		|	Islam			|	
       
+  @reginfo2
+  Scenario Outline: Register with empty data
+    Given I open website prevent for register personal info with empty data https://main--starlit-lokum-26b84a.netlify.app/
+    When I navigated to register page for register account with empty data
+    And I fill <email8>,<name2>,<NIK2>,<gender2>,<place2>,<dob2>,<religion2> for regist with empty data
+    Then Unsuccessfully register with empty data and navigated to academic information page
+
+    Examples: 
+    	|	email8							|	name2		|	NIK2								| gender2		|	place2	|	dob2				|	religion2		|
+      | *null*						 	| *null*  | *null*							|	*null*		|	*null*	|	*null*			|	*null*			|	
       
-   @register2
-   Scenario Outline: Register with blank data
-    Given User launch open website prevent for regist with blank data
-    When User open register page for regist with blank data
-    And User fill <email>,<name>,<NIK>,<gender>,<place>,<dob>,<religion>
-    Then Unsuccessfully register with blank data
-     Examples: 
-      |									 	 |				|											|						|					|							|						|	
-   
-   @register3
-   Scenario Outline: Register with blank data
-   Given User launch open website prevent for regist with blank data
-   When User open register page for regist with blank data
-   And User fill <email>,<name>,<NIK>,<gender>,<place>,<dob>,<religion>
-   Then Unsuccessfully register with blank data
-     Examples: 
-      | dummy21						 | Dummy 	| 3176890102030405    |	Perempuan	| Jakarta	|	01/06/1995	|	Islam			|	
-      |	dummy21@dummy.com	 | D			|	3176890102030405		| Perempuan	|	Jakarta	| 01/06/1995	| Islam			|	
-      |	dummy21@dummy.com	 | Dummy	|	3176890102030405		|	Perempuan	|	Jakarta	|	23/06/1995	|	Islam			|	
+  @reginfo3
+  Scenario Outline: Register with not format email
+    Given I open website prevent for register personal info with not format email https://main--starlit-lokum-26b84a.netlify.app/
+    When I navigated to register page for register account with not format email
+    And I fill <email9>,<name3>,<NIK3>,<gender3>,<place3>,<dob3>,<religion3> for regist with not format email
+    Then Unsuccessfully register with not format email and navigated to academic information page
+
+    Examples: 
+    	|	email9							|	name3		|	NIK3								| gender3		|	place3	|	dob3					|	religion3	|
+      | dummy21						 	| Dummy  	| 3176890102030405		|	Perempuan	|	Jakarta	|	01/06/1995		|	Islam			|	
+      
+  @reginfo4
+  Scenario Outline: Register with name one character
+    Given I open website prevent for register personal info with name one character https://main--starlit-lokum-26b84a.netlify.app/
+    When I navigated to register page for register account with name one character
+    And I fill <email10>,<name4>,<NIK4>,<gender4>,<place4>,<dob4>,<religion4> for regist with name one character
+    Then Unsuccessfully register with name one character and navigated to academic information page
+
+    Examples: 
+    	|	email10							|	name4		|	NIK4								| gender4		|	place4	|	dob4					|	religion4	|
+      | dummy21@dummy.com		| D		  	| 3176890102030405		|	Perempuan	|	Jakarta	|	01/06/1995		|	Islam			|
+      
+  @reginfo5
+  Scenario Outline: Register with date of birth is date now
+    Given I open website prevent for register personal info with date of birth is date now https://main--starlit-lokum-26b84a.netlify.app/
+    When I navigated to register page for register account with date of birth is date now
+    And I fill <email11>,<name5>,<NIK5>,<gender5>,<place5>,<dob5>,<religion5> for regist with name date of birth is date now
+    Then Unsuccessfully register with date of birth is date now and navigated to academic information page
+
+    Examples: 
+    	|	email11							|	name5		|	NIK5								| gender5		|	place5	|	dob5					|	religion5	|
+      | dummy21@dummy.com		| Dummy  	| 3176890102030405		|	Perempuan	|	Jakarta	|	25/06/1995		|	Islam			|
+      	

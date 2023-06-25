@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>path</name>
+   <tag></tag>
+   <elementGuidId>46f554b1-89a3-4398-b473-4fa88161eedf</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>path</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>path</value>
+      <webElementGuid>b7453d27-fa0b-49f1-9914-0ecae2ec70e8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>stroke-linecap</name>
+      <type>Main</type>
+      <value>round</value>
+      <webElementGuid>bf85fdba-fe32-470e-9778-216b56e06108</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>stroke-linejoin</name>
+      <type>Main</type>
+      <value>round</value>
+      <webElementGuid>11f3dc62-5a63-48ab-b722-6a7c0c4351a2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>stroke-width</name>
+      <type>Main</type>
+      <value>2</value>
+      <webElementGuid>2222444e-154e-4a80-b394-de04582beef7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>d</name>
+      <type>Main</type>
+      <value>M19 9l-7 7-7-7</value>
+      <webElementGuid>208f5a4d-7aed-4243-9db8-149c20b4d37e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/nav[@class=&quot;bg-web-green-300 fixed w-full z-50&quot;]/div[@class=&quot;max-w-[1440px] flex flex-wrap items-center justify-between mx-auto p-[22px]&quot;]/div[1]/ul[@class=&quot;font-poppins text-[20px] font-[700] flex flex-row gap-[61px]  text-white&quot;]/li[@class=&quot;border-b-4 border-[#8EBF59]&quot;]/div[@class=&quot;relative&quot;]/button[@class=&quot;flex flex-row items-center&quot;]/svg[@class=&quot;w-6 h-6 ml-2&quot;]/path[1]</value>
+      <webElementGuid>fc0e4115-0000-4fee-8aaa-a22d6dea24b4</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
