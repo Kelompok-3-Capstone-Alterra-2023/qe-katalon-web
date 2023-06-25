@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Action</name>
+   <tag></tag>
+   <elementGuidId>defeb07f-5552-41e3-84e4-bd8be4e1f30d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.text-neutral-0.text-xs</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='rudix'])[1]/following::div[4]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>3a104032-79d6-4018-96f2-fc5d2c666238</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-neutral-0 text-xs</value>
+      <webElementGuid>da2231ff-3d22-45c1-9e4f-9fdd37182af7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Action</value>
+      <webElementGuid>93d85bdc-3410-44f1-820f-26f84ca1887f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;flex flex-row&quot;]/div[@class=&quot;h-full w-full&quot;]/main[@class=&quot;lg:pl-20 h-full&quot;]/div[@class=&quot;h-full&quot;]/div[@class=&quot;max-w-[1550px] flex mx-auto&quot;]/div[@class=&quot;flex-grow&quot;]/div[@class=&quot;flex justify-between py-7 px-4 bg-web-green-75 text-xl font-bold&quot;]/div[@class=&quot;relative&quot;]/button[@class=&quot;flex justify-between items-center gap-7 bg-web-green-300 rounded-full w-[148px]  px-4 py-2&quot;]/div[@class=&quot;text-neutral-0 text-xs&quot;]</value>
+      <webElementGuid>9101e50a-4d63-4cf5-9840-ac08e6f37b07</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='rudix'])[1]/following::div[4]</value>
+      <webElementGuid>9f5133a6-bc68-4d6e-9807-aa2e1c007b26</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='tes'])[1]/preceding::div[1]</value>
+      <webElementGuid>7d85cad2-71e3-41ed-8fdb-d721cfe74da7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='tes2'])[1]/preceding::div[3]</value>
+      <webElementGuid>d570e426-50f1-45b3-af4f-04252f281fe1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Action']/parent::*</value>
+      <webElementGuid>094a36a2-529c-4d74-a984-ff51339a2f74</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button/div</value>
+      <webElementGuid>2c50ab9b-2b61-4fb8-8fef-5ae58ad2e95c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Action' or . = 'Action')]</value>
+      <webElementGuid>7c5c5de5-763a-4c8d-ba08-41f09e9404c6</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

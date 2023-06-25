@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Komisi</name>
+   <tag></tag>
+   <elementGuidId>b1dca81e-7c48-40c5-a0da-e8b1988dbd4b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Notifikasi'])[1]/following::a[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>7035dc80-ab7b-4028-90a0-4d0602987553</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>bg-web-green-400 border-solid border-neutral-0 border-l-[5px] pt-[5px] pr-[5px] pb-[5px] pl-3 flex flex-row gap-2.5 items-start justify-start self-stretch shrink-0 relative</value>
+      <webElementGuid>7ec1c60d-de9f-42b0-b0ad-8a17baadf1b5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/dashboard-dokter/komisi</value>
+      <webElementGuid>e768f5b1-cf9b-47e8-8a91-6b51e50b6432</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Komisi</value>
+      <webElementGuid>a5c6b227-5f2e-457b-8fda-68248757177e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;flex flex-row&quot;]/div[@class=&quot;z-0 flex top-0&quot;]/div[@class=&quot;bg-web-green-300 min-h-screen min-w-[467px] px-[61px] py-[47px] flex relative overflow-y-auto&quot;]/div[@class=&quot;flex flex-col items-center justify-between relative&quot;]/div[@class=&quot;flex flex-col gap-[51px] items-start justify-start shrink-0 relative&quot;]/div[@class=&quot;flex flex-col gap-[31px] items-start justify-start self-stretch shrink-0 relative&quot;]/a[@class=&quot;bg-web-green-400 border-solid border-neutral-0 border-l-[5px] pt-[5px] pr-[5px] pb-[5px] pl-3 flex flex-row gap-2.5 items-start justify-start self-stretch shrink-0 relative&quot;]</value>
+      <webElementGuid>fd9bb537-524f-4aae-9f72-f7d8fa7a8891</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Notifikasi'])[1]/following::a[1]</value>
+      <webElementGuid>c30cf999-7972-4354-964c-9ca55ffd21f6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pesan'])[1]/following::a[2]</value>
+      <webElementGuid>1faeea43-b4d3-4f0d-84fb-3206a95b0d6c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Profil'])[1]/preceding::a[1]</value>
+      <webElementGuid>793ca0b5-9382-4abb-81e7-64a8b60469c5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/dashboard-dokter/komisi')]</value>
+      <webElementGuid>f8a21044-1ae4-4885-ab7a-e4847dd1572c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a[6]</value>
+      <webElementGuid>e6c7ab1d-ae8b-4f6d-92cf-8496ca81a912</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/dashboard-dokter/komisi' and (text() = 'Komisi' or . = 'Komisi')]</value>
+      <webElementGuid>a501a8d5-7f80-4d69-bdf8-799ed7efc264</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -49,6 +49,10 @@ class login {
 	@Given("I open website prevent for login with valid data https://main--starlit-lokum-26b84a.netlify.app/")
 	def open_website_for_login_with_valid_data() {
 		WebUI.openBrowser('')
+<<<<<<< HEAD
+=======
+
+>>>>>>> 1d0cb56b0fa29fcfe406644bf4615c9233357e25
 		WebUI.navigateToUrl('https://main--starlit-lokum-26b84a.netlify.app/')
 		WebUI.maximizeWindow()
 	}
@@ -74,11 +78,17 @@ class login {
 	@Then("I click button login and verify successfully login")
 	def verify_successfully_login() {
 		WebUI.click(findTestObject('Object Repository/login-web/Page_Prevent/button_Log In'))
+<<<<<<< HEAD
 		WebUI.delay(2)
 		WebUI.takeScreenshot()
 		WebUI.click(findTestObject('Object Repository/login-web/Page_Prevent - Dokter/p_Hallo, Selamat Datang, Dokter dummydummy'))
 		WebUI.delay(3)
 		WebUI.takeScreenshot()
+=======
+
+		WebUI.click(findTestObject('Object Repository/login-web/Page_Prevent - Dokter/p_Hallo, Selamat Datang, Dokter dummydummy'))
+
+>>>>>>> 1d0cb56b0fa29fcfe406644bf4615c9233357e25
 		WebUI.closeBrowser()
 	}
 
@@ -107,11 +117,17 @@ class login {
 	@Then("I click button login and verify unsuccessfully login with invalid data")
 	def verify_unsuccessfully_login_with_invalid_data() {
 		WebUI.click(findTestObject('Object Repository/login-web/Page_Prevent/p_Log In'))
+<<<<<<< HEAD
 		WebUI.delay(2)
 		WebUI.takeScreenshot()
 		WebUI.click(findTestObject('Object Repository/login-web/Page_Prevent/div_Email atau kata sandi salah. Silahkan c_383427'))
 		WebUI.delay(2)
 		WebUI.takeScreenshot()
+=======
+
+		WebUI.click(findTestObject('Object Repository/login-web/Page_Prevent/div_Email atau kata sandi salah. Silahkan c_383427'))
+
+>>>>>>> 1d0cb56b0fa29fcfe406644bf4615c9233357e25
 		WebUI.closeBrowser()
 	}
 
@@ -119,6 +135,10 @@ class login {
 	@Given("I open website prevent for login with blank data https://main--starlit-lokum-26b84a.netlify.app/")
 	def open_website_for_login_with_blank_data() {
 		WebUI.openBrowser('')
+<<<<<<< HEAD
+=======
+
+>>>>>>> 1d0cb56b0fa29fcfe406644bf4615c9233357e25
 		WebUI.navigateToUrl('https://main--starlit-lokum-26b84a.netlify.app/')
 		WebUI.maximizeWindow()
 	}
@@ -143,8 +163,12 @@ class login {
 		WebUI.delay(2)
 		WebUI.takeScreenshot()
 		WebUI.click(findTestObject('Object Repository/login-web/Page_Prevent/form_EmailPasswordLog InLupa kata sandi'))
+<<<<<<< HEAD
 		WebUI.delay(2)
 		WebUI.takeScreenshot()
+=======
+
+>>>>>>> 1d0cb56b0fa29fcfe406644bf4615c9233357e25
 		WebUI.closeBrowser()
 	}
 }

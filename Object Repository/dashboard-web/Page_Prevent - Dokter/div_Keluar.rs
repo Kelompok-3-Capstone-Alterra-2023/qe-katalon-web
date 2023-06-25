@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Keluar</name>
+   <tag></tag>
+   <elementGuidId>6aba2a40-4085-4dba-b2e0-d58ec9fad76a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Profil'])[1]/following::div[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>d9ec467a-5b3a-46b7-a250-dc3c7cbf9692</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>font-poppins font-medium text-[35px] text-neutral-0 text-left relative</value>
+      <webElementGuid>aa10cf1d-02e3-45bf-847e-06e1035008ad</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Keluar</value>
+      <webElementGuid>a27692ba-e8f4-4968-b5d6-42efc2845cbf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;flex flex-row&quot;]/div[@class=&quot;z-0 flex top-0&quot;]/div[@class=&quot;bg-web-green-300 min-h-screen min-w-[467px] px-[61px] py-[47px] flex relative overflow-y-auto&quot;]/div[@class=&quot;flex flex-col items-center justify-between relative&quot;]/button[@class=&quot;flex flex-row gap-2.5 items-start justify-start self-stretch shrink-0 relative&quot;]/div[@class=&quot;font-poppins font-medium text-[35px] text-neutral-0 text-left relative&quot;]</value>
+      <webElementGuid>78bec5a1-985d-4039-8816-114be03ded61</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Profil'])[1]/following::div[1]</value>
+      <webElementGuid>e7ede127-7a23-4702-a029-c8cb636c3e79</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Komisi'])[1]/following::div[2]</value>
+      <webElementGuid>8c853605-bc72-4623-8de3-6890f7258b61</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dokter Area'])[1]/preceding::div[1]</value>
+      <webElementGuid>16cf5924-b506-4542-b3b7-6b60ec41d000</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Keluar']/parent::*</value>
+      <webElementGuid>15d586b7-263d-4147-92e8-88b0031f4544</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button/div</value>
+      <webElementGuid>93f3b9d4-d429-455b-bf86-1d6840fa567b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Keluar' or . = 'Keluar')]</value>
+      <webElementGuid>0fd26918-066a-46d1-8b93-77d434ff31bc</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

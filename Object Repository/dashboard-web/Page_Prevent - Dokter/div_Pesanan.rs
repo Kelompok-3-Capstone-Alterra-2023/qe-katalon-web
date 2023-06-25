@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Pesanan</name>
+   <tag></tag>
+   <elementGuidId>5ed83f8d-c63b-42b8-9330-80c378ff2245</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Dashboard'])[1]/following::div[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>88a5b7ea-39df-487b-896d-081ac2d44ae0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>font-poppins font-medium text-[35px] text-neutral-0 text-left relative</value>
+      <webElementGuid>ea864f89-6003-4fca-9259-4bd89be1b033</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Pesanan</value>
+      <webElementGuid>f56a9cce-a015-4abc-9ad0-2d3c1b8cba3a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;flex flex-row&quot;]/div[@class=&quot;z-0 flex top-0&quot;]/div[@class=&quot;bg-web-green-300 min-h-screen min-w-[467px] px-[61px] py-[47px] flex relative overflow-y-auto&quot;]/div[@class=&quot;flex flex-col items-center justify-between relative&quot;]/div[@class=&quot;flex flex-col gap-[51px] items-start justify-start shrink-0 relative&quot;]/div[@class=&quot;flex flex-col gap-[31px] items-start justify-start self-stretch shrink-0 relative&quot;]/a[@class=&quot;flex flex-row gap-2.5 items-start justify-start self-stretch shrink-0 relative&quot;]/div[@class=&quot;font-poppins font-medium text-[35px] text-neutral-0 text-left relative&quot;]</value>
+      <webElementGuid>9ff573fb-f16e-4a62-a602-bff559d77269</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dashboard'])[1]/following::div[1]</value>
+      <webElementGuid>9beb4722-82d8-4e00-8132-764beb4d6382</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dashboard Menu'])[1]/following::div[3]</value>
+      <webElementGuid>0e579ea0-1b3b-476e-985b-33b84524935c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Artikel'])[1]/preceding::div[1]</value>
+      <webElementGuid>f8b1e38c-9517-4976-9be8-a36894e30cf6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pesan'])[1]/preceding::div[2]</value>
+      <webElementGuid>fdcd71a6-37f3-42d4-b5f9-d3b44eba8437</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Pesanan']/parent::*</value>
+      <webElementGuid>71d6160e-e724-4fb8-ac23-6b6f9a84f3dd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a[2]/div</value>
+      <webElementGuid>2dda767b-7e57-431a-b77c-aff9bd313990</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Pesanan' or . = 'Pesanan')]</value>
+      <webElementGuid>331694da-678f-4bb6-b268-a6402176169c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

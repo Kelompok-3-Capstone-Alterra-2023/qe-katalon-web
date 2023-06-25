@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Komisi</name>
+   <tag></tag>
+   <elementGuidId>fdcce427-7bdb-468f-804d-41094832aa15</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Notifikasi'])[1]/following::div[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>a21330a7-72fa-4ce5-b091-0f731cab8323</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>font-poppins font-medium text-[35px] text-neutral-0 text-left relative</value>
+      <webElementGuid>6a251255-4d13-4254-bf96-dc0d00e1317e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Komisi</value>
+      <webElementGuid>096ec536-3ae4-4291-9a77-dba13845293e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;flex flex-row&quot;]/div[@class=&quot;z-0 flex top-0&quot;]/div[@class=&quot;bg-web-green-300 min-h-screen min-w-[467px] px-[61px] py-[47px] flex relative overflow-y-auto&quot;]/div[@class=&quot;flex flex-col items-center justify-between relative&quot;]/div[@class=&quot;flex flex-col gap-[51px] items-start justify-start shrink-0 relative&quot;]/div[@class=&quot;flex flex-col gap-[31px] items-start justify-start self-stretch shrink-0 relative&quot;]/a[@class=&quot;flex flex-row gap-2.5 items-start justify-start self-stretch shrink-0 relative&quot;]/div[@class=&quot;font-poppins font-medium text-[35px] text-neutral-0 text-left relative&quot;]</value>
+      <webElementGuid>7c381d06-734f-420f-be25-4f43e69d0565</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Notifikasi'])[1]/following::div[1]</value>
+      <webElementGuid>5119dd0f-9b8e-4af7-8360-c62234ffb257</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pesan'])[1]/following::div[2]</value>
+      <webElementGuid>a4fe4023-4569-45d7-ac2c-7e0006823d67</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Profil'])[1]/preceding::div[1]</value>
+      <webElementGuid>515dd14a-e5f3-4129-a966-c8e3a0160d90</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Keluar'])[1]/preceding::div[2]</value>
+      <webElementGuid>d4d8d205-8cdd-4437-a38e-0b178b4cb2dd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Komisi']/parent::*</value>
+      <webElementGuid>f6943be4-9106-4bb2-89e5-fb0c383609c7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a[6]/div</value>
+      <webElementGuid>45d71a2e-2e43-487d-ac24-90b4f65c9962</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Komisi' or . = 'Komisi')]</value>
+      <webElementGuid>a45a07f6-6c85-400b-8f25-76e004dbbf7b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
