@@ -1,10 +1,10 @@
 {
-  "keywordFileContentHash": "B2394E1DEEDCD2332ABDE487883E3D77",
+  "keywordFileContentHash": "459D37B960D8F74013A14C9928C3DF7A",
   "keywordClasses": [
     {
       "name": "register.reginfo",
       "keywordMethods": []
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }

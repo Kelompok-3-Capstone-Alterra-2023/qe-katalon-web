@@ -59,11 +59,11 @@ class dashboard {
 	}
 	@And("User fill email (.*) and password (.*) for login with valid data")
 	def fillOK(String email1, String password1) {
-		WebUI.setText(findTestObject('Object Repository/login-web/Page_Prevent/input_Email_email'), 'rifkhihebat@upi.edu')
+		WebUI.setText(findTestObject('Object Repository/postArtikel/Page_Prevent/input_Email_email'), 'rifkhihebat@gmail.com')
 
 		WebUI.click(findTestObject('Object Repository/login-web/Page_Prevent/label_Password'))
 
-		WebUI.setEncryptedText(findTestObject('Object Repository/login-web/Page_Prevent/input_Email_password'), 'IAFXosDtfqfih8n2pouL5A==')
+		WebUI.setEncryptedText(findTestObject('Object Repository/postArtikel/Page_Prevent/input_Email_password'), 'A1JsZXNIBAo=')
 	}
 	@Then("On dashboard after login and can click all menu")
 	def verifySuccLog() {
@@ -75,51 +75,51 @@ class dashboard {
 		WebUI.verifyElementPresent(findTestObject('Object Repository/dashboard-web/Page_Prevent - Dokter/li_Dokter Area'), 30, FailureHandling.STOP_ON_FAILURE)
 		WebUI.delay(3)
 		WebUI.takeScreenshot()
-		
+
 		WebUI.click(findTestObject('Object Repository/dashboard-web/Page_Prevent - Dokter/svg'))
 		WebUI.click(findTestObject('Object Repository/dashboard-web/Page_Prevent - Dokter/div_Pesanan'))
 		WebUI.verifyElementPresent(findTestObject('Object Repository/dashboard-web/Page_Prevent - Dokter/button_Selanjutnya'), 30, FailureHandling.STOP_ON_FAILURE)
 		WebUI.delay(3)
 		WebUI.takeScreenshot()
-		
+
 		WebUI.click(findTestObject('Object Repository/dashboard-web/Page_Prevent - Dokter/svg'))
 		WebUI.click(findTestObject('Object Repository/dashboard-web/Page_Prevent - Dokter/div_Artikel'))
 		WebUI.verifyElementPresent(findTestObject('Object Repository/dashboard-web/Page_Prevent - Dokter/button_Tambah Artikel'), 30, FailureHandling.STOP_ON_FAILURE)
 		WebUI.delay(3)
 		WebUI.takeScreenshot()
-		
+
 		WebUI.click(findTestObject('Object Repository/dashboard-web/Page_Prevent - Dokter/svg'))
 		WebUI.click(findTestObject('Object Repository/dashboard-web/Page_Prevent - Dokter/div_Pesan'))
 		WebUI.verifyElementPresent(findTestObject('Object Repository/dashboard-web/Page_Prevent - Dokter/div_Action'), 30, FailureHandling.STOP_ON_FAILURE)
 		WebUI.delay(3)
 		WebUI.takeScreenshot()
-		
+
 		WebUI.click(findTestObject('Object Repository/dashboard-web/Page_Prevent - Dokter/svg'))
 		WebUI.click(findTestObject('Object Repository/dashboard-web/Page_Prevent - Dokter/div_Notifikasi'))
 		WebUI.delay(3)
 		WebUI.takeScreenshot()
-		
+
 		WebUI.click(findTestObject('Object Repository/dashboard-web/Page_Prevent - Dokter/svg'))
 		WebUI.click(findTestObject('Object Repository/dashboard-web/Page_Prevent - Dokter/div_Komisi'))
 		WebUI.delay(3)
 		WebUI.takeScreenshot()
-		
+
 		WebUI.click(findTestObject('Object Repository/dashboard-web/Page_Prevent - Dokter/svg'))
 		WebUI.click(findTestObject('Object Repository/dashboard-web/Page_Prevent - Dokter/div_Profil'))
 		WebUI.verifyElementPresent(findTestObject('Object Repository/dashboard-web/Page_Prevent - Dokter/p_Gambar Profil'), 30, FailureHandling.STOP_ON_FAILURE)
 		WebUI.delay(3)
 		WebUI.takeScreenshot()
-		
+
 		WebUI.click(findTestObject('Object Repository/dashboard-web/Page_Prevent - Dokter/svg'))
 		WebUI.scrollToPosition(0, 1000)
 		WebUI.click(findTestObject('Object Repository/dashboard-web/Page_Prevent - Dokter/div_Keluar'))
 		WebUI.verifyElementPresent(findTestObject('Object Repository/homepage-web/Page_Prevent/button_Log In'), 30, FailureHandling.STOP_ON_FAILURE)
 		WebUI.delay(3)
 		WebUI.takeScreenshot()
-	
+
 		WebUI.closeBrowser()
 	}
-	
+
 	//pesanan//
 	@Given("On dashboard after login and click menu pesanan")
 	def launchDash() {
@@ -127,22 +127,22 @@ class dashboard {
 		WebUI.navigateToUrl('https://main--starlit-lokum-26b84a.netlify.app/')
 		WebUI.maximizeWindow()
 		WebUI.click(findTestObject('Object Repository/login-web/Page_Prevent/a_Dokter Area'))
-		WebUI.setText(findTestObject('Object Repository/login-web/Page_Prevent/input_Email_email'), 'rifkhihebat@upi.edu')
+		WebUI.setText(findTestObject('Object Repository/postArtikel/Page_Prevent/input_Email_email'), 'rifkhihebat@gmail.com')
 		WebUI.click(findTestObject('Object Repository/login-web/Page_Prevent/label_Password'))
-		WebUI.setEncryptedText(findTestObject('Object Repository/login-web/Page_Prevent/input_Email_password'), 'IAFXosDtfqfih8n2pouL5A==')
+		WebUI.setEncryptedText(findTestObject('Object Repository/postArtikel/Page_Prevent/input_Email_password'), 'A1JsZXNIBAo=')
 		WebUI.click(findTestObject('Object Repository/login-web/Page_Prevent/button_Log In'))
 		WebUI.click(findTestObject('Object Repository/login-web/Page_Prevent - Dokter/p_Hallo, Selamat Datang, Dokter dummydummy'))
 		WebUI.delay(3)
-		
+
 	}
-	
+
 	@When("User click to view 5 row data")
 	def rowPesan() {
 		WebUI.click(findTestObject('Object Repository/dashboard-web/Page_Prevent - Dokter/svg'))
 		WebUI.click(findTestObject('Object Repository/dashboard-web/Page_Prevent - Dokter/div_Pesanan'))
 		WebUI.selectOptionByValue(findTestObject('Object Repository/dashboard-web/Page_Prevent - Dokter/select_12510'), '5', true)
 	}
-	
+
 	@Then("Already view 5 row data")
 	def readyRowPesan() {
 		WebUI.verifyElementPresent(findTestObject('Object Repository/dashboard-web/Page_Prevent - Dokter/button_Selanjutnya'), 30, FailureHandling.STOP_ON_FAILURE)
@@ -150,5 +150,5 @@ class dashboard {
 		WebUI.takeScreenshot()
 		WebUI.closeBrowser()
 	}
-	
+
 }
