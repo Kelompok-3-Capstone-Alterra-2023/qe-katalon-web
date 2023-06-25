@@ -1,10 +1,10 @@
 {
-  "keywordFileContentHash": "4060049DB63F2DC9CD7A0A6D7457F4EA",
+  "keywordFileContentHash": "CCDF7391273D45DDDDD7E38E4638967A",
   "keywordClasses": [
     {
       "name": "login.login",
       "keywordMethods": []
     }
   ],
-  "javadocParsed": true
+  "javadocParsed": false
 }
