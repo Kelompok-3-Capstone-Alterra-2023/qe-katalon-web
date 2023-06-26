@@ -14,8 +14,6 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
-
-import cucumber.api.java.en.Given
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
@@ -23,15 +21,13 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://main--melodious-genie-0706de.netlify.app/')
 
-WebUI.click(findTestObject('Object Repository/forgotpassword/Page_Prevent/a_Dokter Area'))
+WebUI.click(findTestObject('Object Repository/login-web/Page_Prevent/a_Dokter Area (1)'))
 
-WebUI.click(findTestObject('Object Repository/forgotpassword/Page_Prevent/button_Lupa kata sandi'))
+WebUI.setText(findTestObject('Object Repository/login-web/Page_Prevent/input_Email_email (1)'), 'rifkhihebat@gmail.com')
 
-WebUI.setText(findTestObject('Object Repository/forgotpassword/Page_Prevent/input_Lupa Kata Sandi_email'), 'rifkhihebat')
+WebUI.setEncryptedText(findTestObject('Object Repository/login-web/Page_Prevent/input_Email_password (1)'), 'A1JsZXNIBAo=')
 
-WebUI.click(findTestObject('Object Repository/forgotpassword/Page_Prevent/button_Log In'))
-
-WebUI.click(findTestObject('Object Repository/forgotpassword/Page_Prevent/div_Lupa Kata SandiLupa Kata Sandi Ikuti la_7725c4'))
+WebUI.click(findTestObject('Object Repository/login-web/Page_Prevent/button_Log In (1)'))
 
 WebUI.closeBrowser()
 
@@ -39,24 +35,13 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://main--melodious-genie-0706de.netlify.app/')
 
-WebUI.click(findTestObject('Object Repository/forgotpassword/Page_Prevent/a_Dokter Area'))
+WebUI.click(findTestObject('Object Repository/login-web/Page_Prevent/a_Dokter Area (1)'))
 
-WebUI.click(findTestObject('Object Repository/forgotpassword/Page_Prevent/button_Lupa kata sandi'))
+WebUI.setText(findTestObject('Object Repository/login-web/Page_Prevent/input_Email_email (1)'), 'rifkhihebat@gmail.com')
 
-WebUI.click(findTestObject('Object Repository/forgotpassword/Page_Prevent/button_Log In'))
+WebUI.setEncryptedText(findTestObject('Object Repository/login-web/Page_Prevent/input_Email_password (1)'), 'ok+jXKlg4Gs=')
 
-WebUI.closeBrowser()
-
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://main--melodious-genie-0706de.netlify.app/')
-
-WebUI.click(findTestObject('Object Repository/forgotpassword/Page_Prevent/a_Dokter Area'))
-
-WebUI.click(findTestObject('Object Repository/forgotpassword/Page_Prevent/button_Lupa kata sandi'))
-
-WebUI.setText(findTestObject('Object Repository/forgotpassword/Page_Prevent/input_Lupa Kata Sandi_email'), 'rifkhihebat@gmail.com')
-
-WebUI.click(findTestObject('Object Repository/forgotpassword/Page_Prevent/button_Log In'))
+WebUI.click(findTestObject('Object Repository/login-web/Page_Prevent/button_Log In (1)'))
 
 WebUI.closeBrowser()
+

@@ -22,29 +22,29 @@ Feature: Login doctor prevent
 
   @login1
   Scenario Outline: Login doctor with valid data
-    Given I open website prevent for login with valid data https://main--starlit-lokum-26b84a.netlify.app/
+    Given I open website prevent for login with valid data https://main--melodious-genie-0706de.netlify.app/
     When I navigated to login page for login with valid data
     And I fill email <email1> and password <password1> for login with valid data
     Then I click button login and verify successfully login
 
     Examples: 
-      | email1  							| password1 		|
-      | rifkhihebat@upi.edu 	| vIdePLLyjL 		|
+      | email1  								| password1 		|
+      | rifkhihebat@gmail.com 	| rifkhi		 		|
       
   @login2
   Scenario Outline: Login doctor with invalid data
-    Given I open website prevent for login with invalid data https://main--starlit-lokum-26b84a.netlify.app/
+    Given I open website prevent for login with invalid data https://main--melodious-genie-0706de.netlify.app/
     When I navigated to login page for login with invalid data
     And I fill email <email2> and password <password2> for login with invalid data
     Then I click button login and verify unsuccessfully login with invalid data
 
     Examples: 
-      | email2  							| password2 		|
-      | rifkhihebat@upi.edu 	| vIdePLLyjL1	 	|
+      | email2  								| password2 		|
+      | rifkhihebat@gmail.com 	| rifkhi1	 			|
       
   @login3
   Scenario Outline: Login doctor with blank data
-    Given I open website prevent for login with blank data https://main--starlit-lokum-26b84a.netlify.app/
+    Given I open website prevent for login with blank data https://main--melodious-genie-0706de.netlify.app/
     When I navigated to login page for login with blank data
     And I fill email <email3> and password <password3> for login with blank data
     Then I click button login and verify unsuccessfully login with blank data

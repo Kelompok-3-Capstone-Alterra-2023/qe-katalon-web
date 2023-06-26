@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "925A02C6776CFDEB4284B022BFDA8174",
+  "keywordFileContentHash": "93208D148B1F5812239E5A81E2B123C5",
   "keywordFileContentHash": "CCDF7391273D45DDDDD7E38E4638967A",
   "keywordClasses": [
     {
@@ -7,5 +7,7 @@
       "keywordMethods": []
     }
   ],
+  "javadocParsed": true
+}
   "javadocParsed": false
 }

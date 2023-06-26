@@ -1,10 +1,10 @@
 {
-  "keywordFileContentHash": "54D07BA8704F55472CAD0820A064D591",
+  "keywordFileContentHash": "1E767C71A310B0AEE1F1C3BD3F941C3C",
   "keywordClasses": [
     {
       "name": "chat.chat",
       "keywordMethods": []
     }
   ],
-  "javadocParsed": true
+  "javadocParsed": false
 }

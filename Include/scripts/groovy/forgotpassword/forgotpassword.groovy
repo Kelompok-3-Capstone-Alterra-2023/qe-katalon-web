@@ -45,105 +45,98 @@ import cucumber.api.java.en.When
 
 
 class forgotpassword {
-//forgot password 1//
-	@Given("I open website prevent for forgot password account with invalid data https://main--starlit-lokum-26b84a.netlify.app/")
+	//forgot password 1//
+	@Given("I open website prevent for forgot password account with invalid data https://main--melodious-genie-0706de.netlify.app/")
 	def open_website_for_forgot_password_with_invalid_data() {
 		WebUI.openBrowser('')
-		WebUI.navigateToUrl('https://main--starlit-lokum-26b84a.netlify.app/')
+		WebUI.navigateToUrl('https://main--melodious-genie-0706de.netlify.app/')
 		WebUI.maximizeWindow()
 	}
 
 	@When("I navigated to forgot password page for created new password with invalid data")
 	def open_forgot_pasword_page_with_invalid_data() {
-		WebUI.delay(3)
 		WebUI.click(findTestObject('Object Repository/forgotpassword/Page_Prevent/a_Dokter Area'))
-		WebUI.delay(2)
 		WebUI.takeScreenshot()
 		WebUI.click(findTestObject('Object Repository/forgotpassword/Page_Prevent/button_Lupa kata sandi'))
-		WebUI.delay(2)
 		WebUI.takeScreenshot()
+		WebUI.delay(2)
 	}
 	@And("I fill invalid email (.*) for created new password")
 	def fill_invalid_email_for_forgot_password(String email4) {
 		WebUI.setText(findTestObject('Object Repository/forgotpassword/Page_Prevent/input_Lupa Kata Sandi_email'), 'rifkhihebat')
-		WebUI.delay(2)
 		WebUI.takeScreenshot()
+		WebUI.delay(2)
 	}
 
 	@Then("I click button login and verify unsuccessfully created new password with invalid data")
 	def I_verify_unsuccessfully_with_invalid_data() {
 		WebUI.click(findTestObject('Object Repository/forgotpassword/Page_Prevent/button_Log In'))
-		WebUI.delay(2)
 		WebUI.takeScreenshot()
 		WebUI.click(findTestObject('Object Repository/forgotpassword/Page_Prevent/div_Lupa Kata SandiLupa Kata Sandi Ikuti la_7725c4'))
-		WebUI.delay(2)
 		WebUI.takeScreenshot()
 		WebUI.closeBrowser()
+		WebUI.delay(2)
 	}
 
 	//forgot password 2//
-	@Given("I open website prevent for forgot password account with blank data https://main--starlit-lokum-26b84a.netlify.app/")
+	@Given("I open website prevent for forgot password account with blank data https://main--melodious-genie-0706de.netlify.app/")
 	def open_website_for_forgot_password_with_blank_data() {
 		WebUI.openBrowser('')
-		WebUI.navigateToUrl('https://main--starlit-lokum-26b84a.netlify.app/')
+		WebUI.navigateToUrl('https://main--melodious-genie-0706de.netlify.app/')
 		WebUI.maximizeWindow()
 	}
 
 	@When("I navigated to forgot password page for created new password with blank data")
 	def open_forgot_pasword_page_with_blank_data() {
-		WebUI.delay(3)
 		WebUI.click(findTestObject('Object Repository/forgotpassword/Page_Prevent/a_Dokter Area'))
-		WebUI.delay(2)
 		WebUI.takeScreenshot()
 		WebUI.click(findTestObject('Object Repository/forgotpassword/Page_Prevent/button_Lupa kata sandi'))
-		WebUI.delay(2)
 		WebUI.takeScreenshot()
+		WebUI.delay(2)
 	}
 	@And("I fill email with blank data (.*) for created new password")
 	def fill_blank_email_for_forgot_password(String email5) {
 		WebUI.setText(findTestObject('Object Repository/forgotpassword/Page_Prevent/input_Lupa Kata Sandi_email'), ' ')
-		WebUI.delay(2)
 		WebUI.takeScreenshot()
+		WebUI.delay(2)
 	}
 
 	@Then("I I click button login and verify unsuccessfully created new password with blank data")
 	def I_verify_unsuccessfully_with_blank_data() {
 		WebUI.click(findTestObject('Object Repository/forgotpassword/Page_Prevent/button_Log In'))
-		WebUI.delay(2)
 		WebUI.takeScreenshot()
 		WebUI.closeBrowser()
+		WebUI.delay(2)
 	}
 
 	//forgot password 3//
-	@Given("I open website prevent for forgot password account with valid data https://main--starlit-lokum-26b84a.netlify.app/")
+	@Given("I open website prevent for forgot password account with valid data https://main--melodious-genie-0706de.netlify.app/")
 	def open_website_for_forgot_password_with_valid_data() {
 		WebUI.openBrowser('')
-		WebUI.navigateToUrl('https://main--starlit-lokum-26b84a.netlify.app/')
+		WebUI.navigateToUrl('https://main--melodious-genie-0706de.netlify.app/')
 		WebUI.maximizeWindow()
 	}
 
 	@When("I navigated to forgot password page for created new password with valid data")
 	def open_forgot_pasword_page_with_valid_data() {
-		WebUI.delay(3)
 		WebUI.click(findTestObject('Object Repository/forgotpassword/Page_Prevent/a_Dokter Area'))
-		WebUI.delay(2)
 		WebUI.takeScreenshot()
 		WebUI.click(findTestObject('Object Repository/forgotpassword/Page_Prevent/button_Lupa kata sandi'))
-		WebUI.delay(2)
 		WebUI.takeScreenshot()
+		WebUI.delay(2)
 	}
 	@And("I fill valid email (.*) for created new password")
 	def fill_valid_email_for_forgot_password(String email6) {
-		WebUI.setText(findTestObject('Object Repository/forgotpassword/Page_Prevent/input_Lupa Kata Sandi_email'), 'rifkhihebat@upi.edu')
-		WebUI.delay(2)
+		WebUI.setText(findTestObject('Object Repository/forgotpassword/Page_Prevent/input_Lupa Kata Sandi_email'), 'rifkhihebat@gmail.com')
 		WebUI.takeScreenshot()
+		WebUI.delay(2)
 	}
 
 	@Then("I I click button login and verify successfully created new password with valid data")
 	def I_verify_unsuccessfully_with_valid_data() {
 		WebUI.click(findTestObject('Object Repository/forgotpassword/Page_Prevent/button_Log In'))
-		WebUI.delay(2)
 		WebUI.takeScreenshot()
 		WebUI.closeBrowser()
+		WebUI.delay(2)
 	}
 }

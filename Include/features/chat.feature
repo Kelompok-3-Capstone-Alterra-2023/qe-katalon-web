@@ -20,12 +20,36 @@
 Feature: Chat for patient
   I want to use this feature for chat with patient
   @chat1
-  Scenario Outline: Sending message with text
-    Given I open website prevent for sending message with text https://main--starlit-lokum-26b84a.netlify.app/
-    When I successfully login account with email <email1> and password <password1> and i choose feature chat in dashboard menu for sending message with text
-    And I fill message with text 
-    Then I click button send and verify successfully sending message with text
+  Scenario: Sending message with text
+    Given I open website prevent for sending message with text https://main--melodious-genie-0706de.netlify.app/
+    When I successfully login account and i choose feature chat in dashboard menu for sending message with text
+    And I fill message with text for patient
+    Then I click button send and message with text successfully sent 
+    
+  @chat2
+  Scenario: Sending message with image
+    Given I open website prevent for sending message with image https://main--melodious-genie-0706de.netlify.app/
+    When I successfully login account and i choose feature chat in dashboard menu for sending message with image
+    And I fill message with image for patient
+    Then I click button send and message with image successfully sent
 
-    Examples: 
-      | email1  							| password1 		|
-      | rifkhihebat@upi.edu 	| vIdePLLyjL 		|
+  @chat3
+  Scenario: Verify successfully click button action in message
+    Given I open website prevent for click button action in message https://main--melodious-genie-0706de.netlify.app/
+    When I successfully login account and i choose feature chat in dashboard menu for click button action in message
+    And I click button action in message
+    Then I successfully click button action
+    
+  @chat4
+  Scenario: Verify successfully click icon resep obat in message
+    Given I open website prevent for click icon resep obat in message https://main--melodious-genie-0706de.netlify.app/
+    When I successfully login account and i choose feature chat in dashboard menu for click icon resep obat in message
+    And I click icon resep obat in message
+    Then I successfully click icon resep obat
+    
+  @chat5
+  Scenario: Verify successfully click icon tutup sesi in message
+    Given I open website prevent for click icon tutup sesi in message https://main--melodious-genie-0706de.netlify.app/
+    When I successfully login account and i choose feature chat in dashboard menu for click icon tutup sesi in message
+    And I click icon tutup sesi in message
+    Then I successfully click icon tutup sesi

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_alumnus2</name>
+   <name>input_Capture object_jurusan</name>
    <tag></tag>
-   <elementGuidId>966107a1-8f43-4e15-bdab-0ab1308ad8fb</elementGuidId>
+   <elementGuidId>23ff7c93-9004-448d-b6af-200bbebfe1b5</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@name='alumnus2']</value>
+         <value>//input[@name='jurusan']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>input[name=&quot;alumnus2&quot;]</value>
+         <value>input[name=&quot;jurusan&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,15 +22,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>060fce44-5ccf-43dc-bb37-2d4a3e906ec5</webElementGuid>
+      <webElementGuid>f24b7d55-862d-4571-8ce0-f80e6d02bc91</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
-      <value>Asal Universitas 2</value>
-      <webElementGuid>caa8f296-6add-41c8-9252-ad24e2696508</webElementGuid>
+      <value>Jurusan*</value>
+      <webElementGuid>13261614-0ceb-4b44-a18e-faf9fe974d00</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>w-full  border  rounded-lg border-neutral-70 </value>
-      <webElementGuid>e83fe695-18cb-42bd-b1f1-3c41ae65fd65</webElementGuid>
+      <webElementGuid>d587923e-f897-4958-8b90-bb939c48384e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,46 +46,54 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>dd9b61ab-dd2d-4145-84d8-238ae8e5f0a1</webElementGuid>
+      <webElementGuid>2c44e887-8051-4e3e-8798-3eb3525fdf1e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>KEDOKTERAN</value>
+      <webElementGuid>3a12e479-80be-496a-82f6-c345f2f647e5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>alumnus2</value>
-      <webElementGuid>aead43ec-e10a-48ef-91d1-87d8771290e4</webElementGuid>
+      <value>jurusan</value>
+      <webElementGuid>59f80f8f-2e88-490e-8ac3-d8e7c8b59d9d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/section[@class=&quot;min-screen-2xl h-screen flex bg-gray-500&quot;]/div[@class=&quot;w-1/2 bg-neutral-0 flex flex-col justify-center&quot;]/div[@class=&quot;w-[480px] flex flex-col gap-8 mx-auto text-center&quot;]/form[@class=&quot;flex flex-col gap-8&quot;]/div[4]/input[@class=&quot;w-full  border  rounded-lg border-neutral-70&quot;]</value>
-      <webElementGuid>ea3919e3-7c86-42fb-bdc1-be08df093fda</webElementGuid>
+      <value>/html[1]/body[1]/section[@class=&quot;min-screen-2xl h-screen flex bg-gray-500&quot;]/div[@class=&quot;w-1/2 bg-neutral-0 flex flex-col justify-center&quot;]/div[@class=&quot;w-[480px] flex flex-col gap-4 mx-auto text-center&quot;]/form[@class=&quot;flex flex-col gap-8&quot;]/div[2]/input[@class=&quot;w-full  border  rounded-lg border-neutral-70&quot;]</value>
+      <webElementGuid>80eeaa17-f08f-4bb2-b097-ea15f8e44a88</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@name='alumnus2']</value>
-      <webElementGuid>a74e0f5d-1798-406a-949d-04a5a533495e</webElementGuid>
+      <value>//input[@name='jurusan']</value>
+      <webElementGuid>23a3423a-154f-4bdd-8443-4970ae5ebbe6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[4]/input</value>
-      <webElementGuid>06e6ccab-5d5a-4003-b0d2-a488232e5a85</webElementGuid>
+      <value>//div[2]/input</value>
+      <webElementGuid>b7db058d-2ee7-4a76-9067-87fcfd670e61</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@placeholder = 'Asal Universitas 2' and @type = 'text' and @name = 'alumnus2']</value>
-      <webElementGuid>836e3d85-b551-4bbe-96ac-0c2cee310ede</webElementGuid>
+      <value>//input[@placeholder = 'Jurusan*' and @type = 'text' and @name = 'jurusan']</value>
+      <webElementGuid>e21d4cd1-8597-4d1a-9bc5-f841d5937f9e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
