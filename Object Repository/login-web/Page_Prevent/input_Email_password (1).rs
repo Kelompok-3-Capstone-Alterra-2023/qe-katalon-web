@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_grad_year</name>
+   <name>input_Email_password (1)</name>
    <tag></tag>
-   <elementGuidId>e46f5fc1-05e5-4a92-9b02-cb6781558911</elementGuidId>
+   <elementGuidId>c699d82f-732d-41a2-86d6-08e2ba45c1cd</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@name='grad_year']</value>
+         <value>//input[@name='password']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>input[name=&quot;grad_year&quot;]</value>
+         <value>input[name=&quot;password&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,70 +22,62 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>f8a1030d-7739-4e5d-8cd5-db6a3d4aea5c</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>placeholder</name>
-      <type>Main</type>
-      <value>Tahun Lulus*</value>
-      <webElementGuid>be7e7377-1cfd-459e-b2a1-b90639260584</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>w-full  border  rounded-lg border-neutral-70 </value>
-      <webElementGuid>2df75d12-d28d-40fb-8438-0e5bc0961b15</webElementGuid>
+      <webElementGuid>d0bb0453-46ed-449c-ba80-1fe68560ff0d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>text</value>
-      <webElementGuid>d08410a0-df26-4fab-bade-03987e98bbdf</webElementGuid>
+      <value>password</value>
+      <webElementGuid>9ad7eeff-18f8-4e40-abb2-99619ebf3797</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>border-[#8EBF59] w-full h-12 px-4 text-sm peer bg-white outline-none rounded-lg focus:border-none valid:bg-white</value>
+      <webElementGuid>c9b1ffed-ea1b-4803-9dab-111caed09ab1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>grad_year</value>
-      <webElementGuid>af11dc7c-320e-481f-b9c2-a3a0451b230f</webElementGuid>
+      <value>password</value>
+      <webElementGuid>e2348232-48cd-434f-a4ee-3be6d2bcf663</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/section[@class=&quot;min-screen-2xl h-screen flex bg-gray-500&quot;]/div[@class=&quot;w-1/2 bg-neutral-0 flex flex-col justify-center&quot;]/div[@class=&quot;w-[480px] flex flex-col gap-8 mx-auto text-center&quot;]/form[@class=&quot;flex flex-col gap-8&quot;]/div[3]/input[@class=&quot;w-full  border  rounded-lg border-neutral-70&quot;]</value>
-      <webElementGuid>3e2d1372-16b6-4d7d-bcd9-52bcd4d66182</webElementGuid>
+      <value>/html[1]/body[1]/section[@class=&quot;flex bg-gray-500 min-screen-2xl h-screen&quot;]/div[@class=&quot;w-1/2 bg-neutral-0 flex flex-col justify-center&quot;]/div[@class=&quot;w-[480px] flex flex-col gap-8 mx-auto text-center&quot;]/form[@class=&quot;flex flex-col gap-8&quot;]/div[@class=&quot;w-full relative group font-inter font-[400] text-[18px] leading-[27px]&quot;]/input[@class=&quot;border-[#8EBF59] w-full h-12 px-4 text-sm peer bg-white outline-none rounded-lg focus:border-none valid:bg-white&quot;]</value>
+      <webElementGuid>a2b9608e-4ec0-437e-9d43-c5bbfe3c2b00</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@name='grad_year']</value>
-      <webElementGuid>216e77c1-6e6b-47fb-9d0c-8ceeb719075f</webElementGuid>
+      <value>//input[@name='password']</value>
+      <webElementGuid>c49024d2-ad36-4ac0-96a6-54d3c8232c0d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/input</value>
-      <webElementGuid>c4758d39-dc93-473c-94fe-ed142ffe8a0f</webElementGuid>
+      <value>//div[2]/input</value>
+      <webElementGuid>60b1444f-6646-4672-9c97-bdba148cf0dd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@placeholder = 'Tahun Lulus*' and @type = 'text' and @name = 'grad_year']</value>
-      <webElementGuid>71f78ef3-df0b-4830-ac56-26af847e26d1</webElementGuid>
+      <value>//input[@type = 'password' and @name = 'password']</value>
+      <webElementGuid>c24c25ab-4422-421a-a7fe-b20aba46b8ee</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

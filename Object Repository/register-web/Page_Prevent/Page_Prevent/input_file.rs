@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_file</name>
+   <tag></tag>
+   <elementGuidId>8e689aed-3144-4100-9058-14cb083ca3d6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@type='file']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>input[type=&quot;file&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>ebc901a6-52bf-4976-b81d-ed0ce2efbeab</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>file</value>
+      <webElementGuid>2e5e5e76-8b60-4b90-b383-de312251bf0e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/section[@class=&quot;min-screen-2xl h-screen flex bg-gray-500&quot;]/div[@class=&quot;w-1/2 bg-neutral-0 flex flex-col justify-center&quot;]/div[@class=&quot;w-[480px] flex flex-col gap-4 mx-auto text-center&quot;]/form[@class=&quot;flex flex-col gap-6&quot;]/div[1]/div[1]/input[1]</value>
+      <webElementGuid>e2b61d5e-6336-4c85-8b65-b33384445fbf</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@type='file']</value>
+      <webElementGuid>8d7da6ec-5249-4cfc-af16-e1f3510b3284</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//input</value>
+      <webElementGuid>5eb02a26-9373-4ad3-9669-cec7198d7396</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'file']</value>
+      <webElementGuid>69cb017f-0cd1-47e2-8820-81c4d986816d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

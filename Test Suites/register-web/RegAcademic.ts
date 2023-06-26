@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>login</name>
+   <name>RegAcademic</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,12 +10,12 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>7b123fbd-0c4b-4ec7-a0cf-f89532fc4d17</testSuiteGuid>
+   <testSuiteGuid>b0485337-d75e-488d-9705-2b7d27d06f18</testSuiteGuid>
    <testCaseLink>
-      <guid>4b4d5847-9686-4cda-b0bd-04f1a2a69ad8</guid>
+      <guid>df01a4d9-602b-46f2-9f37-84f1bd2b3977</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/login-web/login_01</testCaseId>
+      <testCaseId>Test Cases/register-web/register_02</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
