@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Maksimal 250 Karakter_w-full rounded-lg</name>
+   <tag></tag>
+   <elementGuidId>93b964c7-3ddf-46e6-9d4f-bb144040c414</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>input.w-full.rounded-lg</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@value='']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>15bb9234-022f-4371-aa8b-8bb38a301f04</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>d76ab30a-05f1-4f20-b7c8-4ccd747b4282</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Masukkan Judul Artikel</value>
+      <webElementGuid>b93d105a-43cd-4837-a08e-cb1fbbabe080</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>w-full rounded-lg</value>
+      <webElementGuid>838dd3f5-4a52-4288-b51b-36a2c8e88617</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>maxlength</name>
+      <type>Main</type>
+      <value>250</value>
+      <webElementGuid>eaf80905-afee-4084-910f-678c8e29d24f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;flex flex-row&quot;]/div[@class=&quot;h-full w-full&quot;]/main[@class=&quot;h-full&quot;]/div[@class=&quot;h-full&quot;]/section[@class=&quot;mx-auto max-w-[1440px]&quot;]/form[1]/div[@class=&quot;mx-24&quot;]/div[1]/input[@class=&quot;w-full rounded-lg&quot;]</value>
+      <webElementGuid>8c9c5320-c8f4-4da2-89e6-7218cc4d838d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@value='']</value>
+      <webElementGuid>c05b8177-4227-4125-976c-c55dfbfbd56f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//input</value>
+      <webElementGuid>b821c3b9-adf9-412d-aff4-e9b4e69b6335</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'text' and @placeholder = 'Masukkan Judul Artikel']</value>
+      <webElementGuid>e623ecfe-c374-4c40-9dd1-3222c4f0454d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

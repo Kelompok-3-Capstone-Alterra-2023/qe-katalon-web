@@ -11,7 +11,7 @@ Feature: After login, user can click all menu dashboard
 
     Examples: 
       | email1  							| password1 		|
-      | rifkhihebat@upi.edu 	| vIdePLLyjL 		|
+      | rifkhihebat@gmail.com 	| rifkhi 		|
       
   @pesanan
   Scenario: User can view pesanan page
