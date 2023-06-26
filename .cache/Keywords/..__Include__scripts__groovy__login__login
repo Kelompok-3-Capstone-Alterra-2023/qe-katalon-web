@@ -1,8 +1,5 @@
 {
-<<<<<<< HEAD
   "keywordFileContentHash": "93208D148B1F5812239E5A81E2B123C5",
-=======
-  "keywordFileContentHash": "925A02C6776CFDEB4284B022BFDA8174",
   "keywordFileContentHash": "CCDF7391273D45DDDDD7E38E4638967A",
 >>>>>>> 54573506045779f760b910a5ceaa71b3c3cd2fde
   "keywordClasses": [
@@ -11,10 +8,7 @@
       "keywordMethods": []
     }
   ],
-<<<<<<< HEAD
   "javadocParsed": true
 }
-=======
   "javadocParsed": false
 }
->>>>>>> 54573506045779f760b910a5ceaa71b3c3cd2fde
