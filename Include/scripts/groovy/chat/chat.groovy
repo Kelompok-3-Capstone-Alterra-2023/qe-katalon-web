@@ -45,42 +45,42 @@ import cucumber.api.java.en.When
 
 
 class chat {
-	
+
 	//chat 1//
 	@Given("I open website prevent for sending message with text https://main--starlit-lokum-26b84a.netlify.app/")
 	def open_website_for_sending_message_with_text() {
 		WebUI.openBrowser('')
-		
+
 		WebUI.navigateToUrl('https://main--starlit-lokum-26b84a.netlify.app/')
-		
+
 		WebUI.click(findTestObject('Object Repository/chat-web/Page_Prevent/a_Dokter Area'))
 	}
 
 	@When("I successfully login account with email (.*) and password (.*) and i choose feature chat in dashboard menu for sending message with text")
 	def successfully_login_and_choose_feature_chat(String email1, String password1) {
 		WebUI.setText(findTestObject('Object Repository/chat-web/Page_Prevent/input_Email_email'), 'rifkhihebat@upi.edu')
-		
+
 		WebUI.setEncryptedText(findTestObject('Object Repository/chat-web/Page_Prevent/input_Email_password'), 'IAFXosDtfqfih8n2pouL5A==')
-		
+
 		WebUI.click(findTestObject('Object Repository/chat-web/Page_Prevent/button_Log In'))
-		
+
 		WebUI.click(findTestObject('Object Repository/chat-web/Page_Prevent - Dokter/svg'))
-		
+
 		WebUI.click(findTestObject('Object Repository/chat-web/Page_Prevent - Dokter/div_Pesan'))
 	}
-	
+
 	@And("I fill message with text")
 	def fill_message_with_text() {
 		WebUI.setText(findTestObject('Object Repository/chat-web/Page_Prevent - Dokter/input_tes2_bg-web-green-75 text-16px px-4 w_554a05'),
-			'test')
-		
+				'test')
+
 	}
 	@Then("I click button send and verify successfully sending message with text")
 	def click_button_send() {
 		WebUI.click(findTestObject('Object Repository/chat-web/Page_Prevent - Dokter/rect'))
-		
+
 		WebUI.click(findTestObject('Object Repository/chat-web/Page_Prevent - Dokter/div_test'))
-		
+
 		WebUI.closeBrowser()
 	}
 }

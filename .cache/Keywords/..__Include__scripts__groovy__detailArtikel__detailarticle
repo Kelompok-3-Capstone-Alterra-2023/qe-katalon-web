@@ -1,10 +1,10 @@
 {
-  "keywordFileContentHash": "8454987F3147E53DC78243A620340B0E",
+  "keywordFileContentHash": "94466BBCFA790E3F2EAB26DDD47BFB3C",
   "keywordClasses": [
     {
       "name": "detailArtikel.detailarticle",
       "keywordMethods": []
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_practice_address</name>
+   <name>input_Capture object_grad_year</name>
    <tag></tag>
-   <elementGuidId>1a801bbf-8737-4f92-8e54-1a2e8f3ca0af</elementGuidId>
+   <elementGuidId>1cac5692-5005-4841-aa38-6534d081cebb</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@name='practice_address']</value>
+         <value>//input[@name='grad_year']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>input[name=&quot;practice_address&quot;]</value>
+         <value>input[name=&quot;grad_year&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,15 +22,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>4acac153-6e04-4a18-889b-d7ec662a04ee</webElementGuid>
+      <webElementGuid>877adfb7-060f-4ec2-bc69-fb15cf9da8b8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
-      <value>Tempat Praktik Sekarang</value>
-      <webElementGuid>33ea1ab1-e3a7-4979-baa5-c12db37c3771</webElementGuid>
+      <value>Tahun Lulus*</value>
+      <webElementGuid>73b10fb7-7526-4d9e-bb20-e727fead1e5d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>w-full  border  rounded-lg border-neutral-70 </value>
-      <webElementGuid>eba1527c-ba3a-425e-be8d-168f564711ed</webElementGuid>
+      <webElementGuid>91d50a77-d34b-4d4a-8f0b-4bddc3ee8f2c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,46 +46,54 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>907ea65e-0ca2-40ef-92b6-d1399b04ac10</webElementGuid>
+      <webElementGuid>364593cb-993e-46fd-bfb6-fc9a1156fef1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>2017</value>
+      <webElementGuid>a0d59084-7e01-44cb-9660-91affa7b3970</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>practice_address</value>
-      <webElementGuid>e3d2e09c-8375-49e1-a4c4-0457dd072fbe</webElementGuid>
+      <value>grad_year</value>
+      <webElementGuid>34376806-6d60-47c3-bf09-ee0db2edd945</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/section[@class=&quot;min-screen-2xl h-screen flex bg-gray-500&quot;]/div[@class=&quot;w-1/2 bg-neutral-0 flex flex-col justify-center&quot;]/div[@class=&quot;w-[480px] flex flex-col gap-8 mx-auto text-center&quot;]/form[@class=&quot;flex flex-col gap-8&quot;]/div[7]/input[@class=&quot;w-full  border  rounded-lg border-neutral-70&quot;]</value>
-      <webElementGuid>afb52cf8-1998-45f5-9b4d-e505cc6a6d3b</webElementGuid>
+      <value>/html[1]/body[1]/section[@class=&quot;min-screen-2xl h-screen flex bg-gray-500&quot;]/div[@class=&quot;w-1/2 bg-neutral-0 flex flex-col justify-center&quot;]/div[@class=&quot;w-[480px] flex flex-col gap-4 mx-auto text-center&quot;]/form[@class=&quot;flex flex-col gap-8&quot;]/div[3]/input[@class=&quot;w-full  border  rounded-lg border-neutral-70&quot;]</value>
+      <webElementGuid>587aef04-e225-46a2-948d-a197d8e3b586</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@name='practice_address']</value>
-      <webElementGuid>08d1fe6c-b362-44e4-979f-296acb83366a</webElementGuid>
+      <value>//input[@name='grad_year']</value>
+      <webElementGuid>4df8783a-4ef7-4adc-bdc2-52e7bc555f9f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[7]/input</value>
-      <webElementGuid>1f96724a-6b16-4735-bc49-bcf0efe92def</webElementGuid>
+      <value>//div[3]/input</value>
+      <webElementGuid>87581e7a-1dff-45a7-88f1-c2732b9f7dbc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@placeholder = 'Tempat Praktik Sekarang' and @type = 'text' and @name = 'practice_address']</value>
-      <webElementGuid>3bb318a8-88f2-4b76-8111-8a40f4ebde5d</webElementGuid>
+      <value>//input[@placeholder = 'Tahun Lulus*' and @type = 'text' and @name = 'grad_year']</value>
+      <webElementGuid>31ce3a13-b282-45e2-ba0e-3f9baaeb081e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

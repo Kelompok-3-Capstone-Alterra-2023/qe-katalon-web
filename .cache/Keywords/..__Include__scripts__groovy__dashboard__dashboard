@@ -1,10 +1,10 @@
 {
-  "keywordFileContentHash": "19B1B8D7306A9394FF6A440AF0F0609B",
+  "keywordFileContentHash": "D841C955D66DC0F84554639F541EA95B",
   "keywordClasses": [
     {
       "name": "dashboard.dashboard",
       "keywordMethods": []
     }
   ],
-  "javadocParsed": true
+  "javadocParsed": false
 }

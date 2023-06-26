@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_str_number</name>
+   <name>input_Capture object_jurusan2</name>
    <tag></tag>
-   <elementGuidId>0b3ebe20-4ba3-4056-8e15-8791673f672c</elementGuidId>
+   <elementGuidId>4b59cca3-2c3e-40b9-952c-c53196174d07</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@name='str_number']</value>
+         <value>//input[@name='jurusan2']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>input[name=&quot;str_number&quot;]</value>
+         <value>input[name=&quot;jurusan2&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,15 +22,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>d9ecfa63-3a75-41f0-84d5-7c6313ab12dd</webElementGuid>
+      <webElementGuid>b1cf782a-6ba3-4bc1-8db5-af3462760a15</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
-      <value>No STR*</value>
-      <webElementGuid>09bd365a-95ba-480e-a883-1e68878607ac</webElementGuid>
+      <value>Jurusan</value>
+      <webElementGuid>4dabf297-bcff-4f7b-b3b7-e8efe2efa564</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>w-full  border  rounded-lg border-neutral-70 </value>
-      <webElementGuid>3572822e-a99e-4f66-9f8e-99dd56f8ded8</webElementGuid>
+      <webElementGuid>28e4c396-b34d-4c98-9740-43456e60fe1c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,46 +46,46 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>5d6cb96a-ebb4-45a0-ac3d-75ec1adda58d</webElementGuid>
+      <webElementGuid>bbd60240-186d-41c9-8667-b81f27a67db0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>str_number</value>
-      <webElementGuid>9fc10b54-c012-4c75-8db2-2d95580fa918</webElementGuid>
+      <value>jurusan2</value>
+      <webElementGuid>72a02095-e959-48ae-8a00-d30c6bad11c2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/section[@class=&quot;min-screen-2xl h-screen flex bg-gray-500&quot;]/div[@class=&quot;w-1/2 bg-neutral-0 flex flex-col justify-center&quot;]/div[@class=&quot;w-[480px] flex flex-col gap-8 mx-auto text-center&quot;]/form[@class=&quot;flex flex-col gap-8&quot;]/div[8]/input[@class=&quot;w-full  border  rounded-lg border-neutral-70&quot;]</value>
-      <webElementGuid>65b7fa84-dd4d-4327-9dce-458ca591f4de</webElementGuid>
+      <value>/html[1]/body[1]/section[@class=&quot;min-screen-2xl h-screen flex bg-gray-500&quot;]/div[@class=&quot;w-1/2 bg-neutral-0 flex flex-col justify-center&quot;]/div[@class=&quot;w-[480px] flex flex-col gap-4 mx-auto text-center&quot;]/form[@class=&quot;flex flex-col gap-8&quot;]/div[5]/input[@class=&quot;w-full  border  rounded-lg border-neutral-70&quot;]</value>
+      <webElementGuid>040fea2b-66dc-4976-b535-ed20824a2ab5</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@name='str_number']</value>
-      <webElementGuid>66433f95-423b-4b08-920f-da5c602667c5</webElementGuid>
+      <value>//input[@name='jurusan2']</value>
+      <webElementGuid>d29a3f6e-b2d5-40c0-a5ac-6e0b0eb90373</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[8]/input</value>
-      <webElementGuid>2a21a2eb-e7b3-44b5-9ccd-0442462c52c3</webElementGuid>
+      <value>//div[5]/input</value>
+      <webElementGuid>78ff2f6a-65af-4acd-a29d-d82bedc54bd9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@placeholder = 'No STR*' and @type = 'text' and @name = 'str_number']</value>
-      <webElementGuid>869faee5-33a0-42b0-9cd2-9d20038cb7c1</webElementGuid>
+      <value>//input[@placeholder = 'Jurusan' and @type = 'text' and @name = 'jurusan2']</value>
+      <webElementGuid>9d64c6e4-2caf-4e9d-b65b-f13ef9c50f0e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -22,7 +22,7 @@ Feature: Forgot password account doctor
 
   @forgotpassword1
   Scenario Outline: Failed created new password if user input email with invalid email
-    Given I open website prevent for forgot password account with invalid data https://main--starlit-lokum-26b84a.netlify.app/
+    Given I open website prevent for forgot password account with invalid data https://main--melodious-genie-0706de.netlify.app/
     When I navigated to forgot password page for created new password with invalid data
     And I fill invalid email <email4> for created new password
     Then I click button login and verify unsuccessfully created new password with invalid data
@@ -33,7 +33,7 @@ Feature: Forgot password account doctor
       
   @forgotpassword2
   Scenario Outline: Failed created new password if user input email with blank data
-    Given I open website prevent for forgot password account with blank data https://main--starlit-lokum-26b84a.netlify.app/
+    Given I open website prevent for forgot password account with blank data https://main--melodious-genie-0706de.netlify.app/
     When I navigated to forgot password page for created new password with blank data
     And I fill email with blank data <email5> for created new password
     Then I I click button login and verify unsuccessfully created new password with blank data
@@ -44,11 +44,11 @@ Feature: Forgot password account doctor
 
   @forgotpassword1
   Scenario Outline: Failed created new password if user input email with valid email
-    Given I open website prevent for forgot password account with valid data https://main--starlit-lokum-26b84a.netlify.app/
+    Given I open website prevent for forgot password account with valid data https://main--melodious-genie-0706de.netlify.app/
     When I navigated to forgot password page for created new password with valid data
     And I fill valid email <email6> for created new password
     Then I I click button login and verify successfully created new password with valid data
 
     Examples: 
-      | email6              |
-      | rifkhihebat@upi.edu |
+      | email6              	|
+      | rifkhihebat@gmail.com |
