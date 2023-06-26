@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
   "keywordFileContentHash": "993AEF286326EF976A3CBD1E7E5EE8CE",
-=======
-  "keywordFileContentHash": "1E767C71A310B0AEE1F1C3BD3F941C3C",
->>>>>>> 4a756ca7f50290b0ed0bd864ad61bed890689798
   "keywordClasses": [
     {
       "name": "chat.chat",
