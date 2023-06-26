@@ -1,10 +1,15 @@
 {
+<<<<<<< HEAD
   "keywordFileContentHash": "71B6E1CD94D91EB217C8D01460E2D941",
+=======
+  "keywordFileContentHash": "459D37B960D8F74013A14C9928C3DF7A",
+  "keywordFileContentHash": "1300016B4571A10740DD5DC7E1715774",
+>>>>>>> 54573506045779f760b910a5ceaa71b3c3cd2fde
   "keywordClasses": [
     {
       "name": "register.reginfo",
       "keywordMethods": []
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }
