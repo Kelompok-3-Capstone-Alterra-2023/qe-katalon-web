@@ -1,9 +1,6 @@
 {
-<<<<<<< HEAD
   "keywordFileContentHash": "D841C955D66DC0F84554639F541EA95B",
-=======
   "keywordFileContentHash": "9A816EE52412F02E92513F4581897EBE",
->>>>>>> 54573506045779f760b910a5ceaa71b3c3cd2fde
   "keywordClasses": [
     {
       "name": "dashboard.dashboard",
