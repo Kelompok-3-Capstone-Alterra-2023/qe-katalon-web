@@ -1,9 +1,6 @@
 {
-<<<<<<< HEAD
   "keywordFileContentHash": "459D37B960D8F74013A14C9928C3DF7A",
-=======
   "keywordFileContentHash": "1300016B4571A10740DD5DC7E1715774",
->>>>>>> 564971539989631498f00c2cb26fabb78a397590
   "keywordClasses": [
     {
       "name": "register.reginfo",
