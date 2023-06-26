@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Log In</name>
+   <name>button_Daftar</name>
    <tag></tag>
-   <elementGuidId>9a973ff1-9f8f-4031-bcc1-278c6133e0e0</elementGuidId>
+   <elementGuidId>15a88e91-65e2-4a75-adb3-235c9aa9392c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>3e3f5ae3-d921-4db0-be33-efa9e18f52bd</webElementGuid>
+      <webElementGuid>60456cff-615b-4e98-aded-0d9016f256d8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,31 +30,31 @@
       <name>type</name>
       <type>Main</type>
       <value>submit</value>
-      <webElementGuid>5bb57014-6463-4bfb-b567-fcfc50a7badb</webElementGuid>
+      <webElementGuid>f0defb2b-a261-4374-99f2-b0b279faa139</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>font-normal rounded-lg gap-3 flex justify-center bg-[#8EBF59] hover:drop-shadow-md text-white w-full py-3</value>
-      <webElementGuid>25bc96e7-eb77-4013-8a73-3784486f48ad</webElementGuid>
+      <value>font-normal rounded-lg gap-3 flex justify-center bg-[#8EBF59] hover:drop-shadow-md text-white py-3 px-4</value>
+      <webElementGuid>e75638a2-957e-4a8f-9501-000eca716fbc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Log In</value>
-      <webElementGuid>ac47965b-4a80-4e1d-826c-fb0f38a2340f</webElementGuid>
+      <value>Daftar</value>
+      <webElementGuid>411dbe5f-23da-4ca1-b55e-1f70b3d518df</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/section[@class=&quot;flex bg-gray-500 min-screen-2xl h-screen&quot;]/div[@class=&quot;w-1/2 bg-neutral-0 flex flex-col justify-center&quot;]/div[@class=&quot;w-[480px] flex flex-col gap-8 mx-auto text-center&quot;]/form[@class=&quot;flex flex-col gap-8&quot;]/button[@class=&quot;font-normal rounded-lg gap-3 flex justify-center bg-[#8EBF59] hover:drop-shadow-md text-white w-full py-3&quot;]</value>
-      <webElementGuid>d323657b-22e2-4980-965e-b07306510107</webElementGuid>
+      <value>/html[1]/body[1]/section[@class=&quot;min-screen-2xl h-screen flex bg-gray-500&quot;]/div[@class=&quot;w-1/2 bg-neutral-0 flex flex-col justify-center&quot;]/div[@class=&quot;w-[480px] flex flex-col gap-8 mx-auto text-center&quot;]/form[@class=&quot;flex flex-col gap-4&quot;]/div[@class=&quot;mt-4 w-full flex flex-col justify-center&quot;]/button[@class=&quot;font-normal rounded-lg gap-3 flex justify-center bg-[#8EBF59] hover:drop-shadow-md text-white py-3 px-4&quot;]</value>
+      <webElementGuid>cd1cfade-e82a-4966-a907-9a4cad825983</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,31 +62,39 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@type='submit']</value>
-      <webElementGuid>ed4ccfd2-9744-4cb8-a3d6-6b95d0cfb01c</webElementGuid>
+      <webElementGuid>c70ad580-6f8d-4612-a691-fd0104660ef0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/following::button[1]</value>
-      <webElementGuid>9de465c3-54f1-4c8c-ae97-bac5054eb33e</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pilih'])[4]/following::button[1]</value>
+      <webElementGuid>ff1e2ee8-54f5-46f5-8ba3-d436139b45b4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Email'])[1]/following::button[1]</value>
-      <webElementGuid>57884c36-057b-403a-85e1-25a2dd8dfdaa</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pilih File'])[4]/following::button[1]</value>
+      <webElementGuid>bae026bd-7e5f-4fae-b44c-c3811e8e6c88</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Lupa kata sandi?'])[1]/preceding::button[1]</value>
-      <webElementGuid>727fe4aa-5013-4cb7-91cb-1603fa8a82db</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::button[1]</value>
+      <webElementGuid>98cac1fa-5457-46e6-9b75-815b74c361a6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[1]/preceding::button[1]</value>
+      <webElementGuid>1ba3992f-97ed-4417-acd8-d30002a999be</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,14 +102,14 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button</value>
-      <webElementGuid>0a06a4ab-0787-46ef-9113-513c66c28e26</webElementGuid>
+      <webElementGuid>f7185fa5-46b8-4d1c-b91b-eb36ec9b0d70</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@type = 'submit' and (text() = 'Log In' or . = 'Log In')]</value>
-      <webElementGuid>e2db2549-4eb0-410c-b7b0-fd5a8b88e64d</webElementGuid>
+      <value>//button[@type = 'submit' and (text() = 'Daftar' or . = 'Daftar')]</value>
+      <webElementGuid>4dd8eadb-00bd-4910-b50f-49b6e728108a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

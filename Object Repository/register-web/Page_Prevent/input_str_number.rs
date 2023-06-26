@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_jenisKelamin</name>
+   <name>input_str_number</name>
    <tag></tag>
-   <elementGuidId>0286cecd-1247-4bb3-bf4a-eb83e5dc7710</elementGuidId>
+   <elementGuidId>0b3ebe20-4ba3-4056-8e15-8791673f672c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@name='jenisKelamin']</value>
+         <value>//input[@name='str_number']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>input[name=&quot;jenisKelamin&quot;]</value>
+         <value>input[name=&quot;str_number&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,23 +22,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>7ce83674-b007-4f4b-bc8b-2b4de4b893e3</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>text</value>
-      <webElementGuid>0ba7958b-bbd2-40ce-a36a-d0f3a80afe76</webElementGuid>
+      <webElementGuid>d9ecfa63-3a75-41f0-84d5-7c6313ab12dd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
-      <value>Jenis Kelamin</value>
-      <webElementGuid>369a4cbe-8244-4774-870f-96ea3b2a98cc</webElementGuid>
+      <value>No STR*</value>
+      <webElementGuid>09bd365a-95ba-480e-a883-1e68878607ac</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,46 +38,54 @@
       <name>class</name>
       <type>Main</type>
       <value>w-full  border  rounded-lg border-neutral-70 </value>
-      <webElementGuid>d53ea9b1-c573-4a42-9684-06243c16826c</webElementGuid>
+      <webElementGuid>3572822e-a99e-4f66-9f8e-99dd56f8ded8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>5d6cb96a-ebb4-45a0-ac3d-75ec1adda58d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>jenisKelamin</value>
-      <webElementGuid>9315b16c-e7b4-4ed3-b41e-f9146c2965fa</webElementGuid>
+      <value>str_number</value>
+      <webElementGuid>9fc10b54-c012-4c75-8db2-2d95580fa918</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/section[@class=&quot;min-screen-2xl h-screen flex bg-gray-500&quot;]/div[@class=&quot;w-1/2 bg-neutral-0 flex flex-col justify-center&quot;]/div[@class=&quot;w-[480px] flex flex-col gap-8 mx-auto text-center&quot;]/form[@class=&quot;flex flex-col gap-8&quot;]/div[4]/input[@class=&quot;w-full  border  rounded-lg border-neutral-70&quot;]</value>
-      <webElementGuid>b84babc8-f9b0-47e3-a030-673a18690db2</webElementGuid>
+      <value>/html[1]/body[1]/section[@class=&quot;min-screen-2xl h-screen flex bg-gray-500&quot;]/div[@class=&quot;w-1/2 bg-neutral-0 flex flex-col justify-center&quot;]/div[@class=&quot;w-[480px] flex flex-col gap-8 mx-auto text-center&quot;]/form[@class=&quot;flex flex-col gap-8&quot;]/div[8]/input[@class=&quot;w-full  border  rounded-lg border-neutral-70&quot;]</value>
+      <webElementGuid>65b7fa84-dd4d-4327-9dce-458ca591f4de</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@name='jenisKelamin']</value>
-      <webElementGuid>97b57b4c-1b83-4655-af5a-380275c03f18</webElementGuid>
+      <value>//input[@name='str_number']</value>
+      <webElementGuid>66433f95-423b-4b08-920f-da5c602667c5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[4]/input</value>
-      <webElementGuid>9bd7acc4-5eae-45bd-b85d-f198a3cae669</webElementGuid>
+      <value>//div[8]/input</value>
+      <webElementGuid>2a21a2eb-e7b3-44b5-9ccd-0442462c52c3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@type = 'text' and @placeholder = 'Jenis Kelamin' and @name = 'jenisKelamin']</value>
-      <webElementGuid>9087fecb-17e1-4337-a943-01804b94a01b</webElementGuid>
+      <value>//input[@placeholder = 'No STR*' and @type = 'text' and @name = 'str_number']</value>
+      <webElementGuid>869faee5-33a0-42b0-9cd2-9d20038cb7c1</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_namaLengkap</name>
+   <name>input_gender</name>
    <tag></tag>
-   <elementGuidId>b117a286-01b9-4304-8b9a-1dcdaf6679db</elementGuidId>
+   <elementGuidId>633e805b-393f-4517-816b-172096a71b97</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@name='namaLengkap']</value>
+         <value>//input[@name='gender']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>input[name=&quot;namaLengkap&quot;]</value>
+         <value>input[name=&quot;gender&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>142a2c60-e2b7-4577-8f5d-85a86e59a4ef</webElementGuid>
+      <webElementGuid>d1adba01-d66b-44ec-af1f-ec642090ddd1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,15 +30,15 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>cee8a7dc-50c2-4047-8915-72fb8887418d</webElementGuid>
+      <webElementGuid>92f2f87c-83a5-4f5e-8960-9918eb538f93</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
-      <value>Nama Lengkap</value>
-      <webElementGuid>4e7229d7-77a5-4567-9bda-f3bd186c9cc4</webElementGuid>
+      <value>Jenis Kelamin</value>
+      <webElementGuid>f77ccf8b-fe2c-41b7-aeae-f375de474169</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,46 +46,46 @@
       <name>class</name>
       <type>Main</type>
       <value>w-full  border  rounded-lg border-neutral-70 </value>
-      <webElementGuid>dffc3c06-2b67-4735-aa06-d19387c9dfa8</webElementGuid>
+      <webElementGuid>d4f32500-040d-4718-9649-82961ab817a1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>namaLengkap</value>
-      <webElementGuid>ee2d5d4c-6b9d-4618-b5f5-48dcfcb12272</webElementGuid>
+      <value>gender</value>
+      <webElementGuid>8243a6fe-56e1-4d4d-b1c8-cedd56abeb6d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/section[@class=&quot;min-screen-2xl h-screen flex bg-gray-500&quot;]/div[@class=&quot;w-1/2 bg-neutral-0 flex flex-col justify-center&quot;]/div[@class=&quot;w-[480px] flex flex-col gap-8 mx-auto text-center&quot;]/form[@class=&quot;flex flex-col gap-8&quot;]/div[2]/input[@class=&quot;w-full  border  rounded-lg border-neutral-70&quot;]</value>
-      <webElementGuid>edb0b35e-ad0b-42e2-aa3f-d1d6ae0158a3</webElementGuid>
+      <value>/html[1]/body[1]/section[@class=&quot;min-screen-2xl h-screen flex bg-gray-500&quot;]/div[@class=&quot;w-1/2 bg-neutral-0 flex flex-col justify-center&quot;]/div[@class=&quot;w-[480px] flex flex-col gap-8 mx-auto text-center&quot;]/form[@class=&quot;flex flex-col gap-8&quot;]/div[4]/input[@class=&quot;w-full  border  rounded-lg border-neutral-70&quot;]</value>
+      <webElementGuid>c2ff14cf-22bf-46f9-a457-597029161ad4</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@name='namaLengkap']</value>
-      <webElementGuid>6f26380a-afa6-4fa6-97a1-a8a8f6ec0fe0</webElementGuid>
+      <value>//input[@name='gender']</value>
+      <webElementGuid>26f5dfcd-ce98-45f8-afd1-adf2d48250ae</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/input</value>
-      <webElementGuid>f4b8287d-d2cb-4b02-92be-1e2a9328fbda</webElementGuid>
+      <value>//div[4]/input</value>
+      <webElementGuid>e83ba995-1214-4b56-926f-21b7e528549c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@type = 'text' and @placeholder = 'Nama Lengkap' and @name = 'namaLengkap']</value>
-      <webElementGuid>c6446ae0-1322-478b-bfb8-5dd0075bf440</webElementGuid>
+      <value>//input[@type = 'text' and @placeholder = 'Jenis Kelamin' and @name = 'gender']</value>
+      <webElementGuid>a519d799-e067-4cd3-b31b-a76241dbc3d5</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
